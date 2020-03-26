@@ -48,7 +48,11 @@ namespace AI_SAC.View
             TextBox tb = (TextBox)sender;
             foreach(DataItemViewModel divm in editorViewModel.ExcelTableViewModel.XMLData)
             {
+                string searched = tb.Text;
+                if(divm.Trigger.Contains(searcher) || divm.Completion.Contains(searcher))
+                {
 
+                }
             }
         }
         private void StartProgramButton_Click(object sender, RoutedEventArgs e)
