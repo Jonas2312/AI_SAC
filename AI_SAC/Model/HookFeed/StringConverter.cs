@@ -1,0 +1,109 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AI_SAC.Model.HookFeed
+{
+    public static class StringConverter
+    {
+        public static string replaceSpecialChars(string s)
+        {
+
+            s = s.Replace("+", "{+}");  // This before replacing the shift+number
+            s = s.Replace("~", "{~}");
+
+            s = s.Replace("=", "+0");
+            s = s.Replace("!", "+1");
+            s = s.Replace("\"", "+2");
+            s = s.Replace("§", "+3");
+            s = s.Replace("$", "+4");
+            s = s.Replace("%", "+5");
+            s = s.Replace("&", "+6");
+            s = s.Replace("/", "+7");
+            s = s.Replace("(", "+8");
+            s = s.Replace(")", "+9");
+            return s;
+        }
+        public static bool CanProcess(Keys key)
+        {
+            string keyToString = key.ToString();
+            if (key == Keys.Space)
+                return true;
+            else if (key == Keys.Back)
+                return true;
+            else if (key == Keys.Enter)
+                return true;
+            else if (key == Keys.LControlKey || key == Keys.RControlKey)
+                return true;
+            else if (key == Keys.LShiftKey || key == Keys.RShiftKey)
+                return true;
+            else if (key == Keys.Oemtilde)
+                return true;
+            else if (key == Keys.Oem1)
+                return true;
+            else if (key == Keys.Oem7)
+                return true;
+            else if (keyToString.Length == 2 && keyToString[0] == 'D')
+                return true;
+            if (keyToString.Length == 1)
+                return true;
+
+            return false;
+        }
+        public static string ToSendKeys(string s)
+        {
+            string newString = string.Empty;
+            foreach(char c in s)
+            {
+                if (c.ToString().ToLower() != c.ToString())
+                    newString += "+";
+                newString += c.ToString().ToLower();
+            }
+            System.Diagnostics.Debug.WriteLine(newString);
+            return newString;
+        }
+
+        public static string KeyToString(KeyData key)
+        {
+            string keyToString = key.key.ToString();
+            if (key.key == Keys.Space)
+                keyToString = " ";
+            else if (key.key == Keys.Back)
+                keyToString = "{BACKSPACE}";
+            else if (key.key == Keys.Enter)
+                keyToString = "{ENTER}";
+            else if (key.key == Keys.Oemtilde)
+                keyToString = "ö";
+            else if (key.key == Keys.Oem1)
+                keyToString = "ü";
+            else if (key.key == Keys.Oem7)
+                keyToString = "ä";
+            else if (keyToString.Length == 2 && keyToString[0] == 'D')
+            {
+                keyToString = keyToString[1].ToString();
+            }
+            else if (keyToString.Length >= 3)
+            {
+                keyToString = String.Empty;
+            }
+
+            if (keyToString.Length == 1)
+            {
+                if (!key.shiftPressed)
+                    keyToString = keyToString.ToLowerInvariant();
+                if (key.shiftPressed)
+                    keyToString = keyToString.ToUpperInvariant();
+            }
+
+            return keyToString;
+        }
+
+        public static KeyData StringToKey(string s)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

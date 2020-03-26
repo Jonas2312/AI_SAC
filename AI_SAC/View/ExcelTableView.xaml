@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="AI_SAC.View.ExcelTableView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AI_SAC.View" xmlns:my="clr-namespace:AI_SAC.ViewModel.Rules"
+             mc:Ignorable="d" x:Name="ThisExcelTable">
+
+    <DataGrid SelectionUnit="CellOrRowHeader"  Name="DataGrid" HeadersVisibility="All" ItemsSource="{Binding Path=XMLData, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">
+        <DataGrid.Resources>
+            <CollectionViewSource x:Key="CurrentCollection" Source="{Binding Path=XMLData}" />
+        </DataGrid.Resources>
+        <DataGrid.RowHeaderWidth>150</DataGrid.RowHeaderWidth>
+        <DataGrid.RowHeaderTemplate>
+            <DataTemplate>
+                <TextBlock Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor,  
+                                  AncestorType={x:Type DataGridRow}},  
+                                  Path=Item.ID, StringFormat='ID = {0}'}"/>
+            </DataTemplate>
+        </DataGrid.RowHeaderTemplate>
+        <DataGrid.Columns>
+            <DataGridTemplateColumn Width="175" Header="Trigger">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <TextBox TextChanged="OnTextChanged" LostFocus="TextBoxLostFocus" GotFocus="TextBoxGainFocus">
+                            <Binding Path="Trigger" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" >
+                                <Binding.ValidationRules>
+                                    <my:UniqueTrigger  CurrentCollection="{StaticResource CurrentCollection}" ValidationStep="CommittedValue"/>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox>
+                    </DataTemplate>
+                    
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn Width="*" Header="Completion">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <TextBox>
+                            <Binding  Path="Completion" UpdateSourceTrigger="PropertyChanged" >
+                            </Binding>
+                        </TextBox>
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn Width="70" Header="IsReplacing">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding IsReplacing, UpdateSourceTrigger=PropertyChanged}">
+                            </CheckBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn Width="50">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Click="ChangeText">Remove</Button>
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+
+
+        </DataGrid.Columns>
+    </DataGrid>
+
+</UserControl>
