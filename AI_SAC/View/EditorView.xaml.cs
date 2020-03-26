@@ -44,18 +44,9 @@ namespace AI_SAC.View
 
         private void OnSearchTextChanged(object sender, RoutedEventArgs e)
         {
-            for (int i = 0; i < .Rows.Count; i++)
+            foreach(var v in XMLDataGrid.DataGrid.Columns)
             {
-                if (dgTest.Rows[i].Cells[0].Value.ToString() == "search")
-                {
-                    dgTest.Rows[i].Selected = true;
-                    dgTest.Rows[i].Visible = true;
-                }
-                else
-                {
-                    dgTest.Rows[i].Visible = false;
-                    dgTest.Rows[i].Selected = false;
-                }
+                foreach(var b in v)
             }
         }
         private void StartProgramButton_Click(object sender, RoutedEventArgs e)
