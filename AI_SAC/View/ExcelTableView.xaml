@@ -17,11 +17,10 @@
             </DataTemplate>
         </DataGrid.RowHeaderTemplate>
         <DataGrid.Columns>
-            <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding AlternationIndex, RelativeSource={RelativeSource AncestorType=DataGridRow}}"
-</DataGrid.Columns>
-                
-                    <DataGridTemplateColumn Width="175" Header="Trigger">
+            <DataGridTextColumn Binding="{Binding AlternationIndex, RelativeSource={RelativeSource AncestorType=DataGridRow}}"/>
+
+
+            <DataGridTemplateColumn Width="175" Header="Trigger">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
                         <TextBox TextWrapping="Wrap" Height="auto" TextChanged="OnTextChanged" LostFocus="TextBoxLostFocus" GotFocus="TextBoxGainFocus">
