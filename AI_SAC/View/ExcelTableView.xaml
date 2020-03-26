@@ -10,7 +10,7 @@
         <DataGrid.Resources>
             <CollectionViewSource x:Key="CurrentCollection" Source="{Binding Path=XMLData}" />
         </DataGrid.Resources>
-        <DataGrid.RowHeaderWidth>100</DataGrid.RowHeaderWidth>
+        <DataGrid.RowHeaderWidth>30</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
             <DataTemplate>
                 
