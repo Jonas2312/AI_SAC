@@ -44,7 +44,7 @@ namespace AI_SAC.View
 
         private void OnSearchTextChanged(object sender, RoutedEventArgs e)
         {
-            for (int i = 0; i < dgTest.Rows.Count; i++)
+            for (int i = 0; i < ExcelTableView..Rows.Count; i++)
             {
                 if (dgTest.Rows[i].Cells[0].Value.ToString() == "search")
                 {
