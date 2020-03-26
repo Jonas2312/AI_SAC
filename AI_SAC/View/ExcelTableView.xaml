@@ -20,7 +20,7 @@
             <DataGridTemplateColumn Width="175" Header="Trigger">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <TextBox Height="*" TextChanged="OnTextChanged" LostFocus="TextBoxLostFocus" GotFocus="TextBoxGainFocus">
+                        <TextBox Height="auto" TextChanged="OnTextChanged" LostFocus="TextBoxLostFocus" GotFocus="TextBoxGainFocus">
                             <Binding Path="Trigger" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" >
                                 <Binding.ValidationRules>
                                     <my:UniqueTrigger  CurrentCollection="{StaticResource CurrentCollection}" ValidationStep="CommittedValue"/>
