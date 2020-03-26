@@ -44,10 +44,7 @@ namespace AI_SAC.View
 
         private void OnSearchTextChanged(object sender, RoutedEventArgs e)
         {
-            foreach(var v in XMLDataGrid.DataGrid.r)
-            {
-                foreach(var b in v.)
-            }
+            
         }
         private void StartProgramButton_Click(object sender, RoutedEventArgs e)
         {
