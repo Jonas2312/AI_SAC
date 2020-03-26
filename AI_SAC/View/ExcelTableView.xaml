@@ -13,7 +13,7 @@
         <DataGrid.RowHeaderWidth>30</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
             <DataTemplate>
-                <TextBlock Text="{Binding AlternationIndex+1, RelativeSource={RelativeSource AncestorType=DataGridRow}}"/>
+                <TextBlock Text="{Binding AlternationIndex, RelativeSource={RelativeSource AncestorType=DataGridRow}}"/>
             </DataTemplate>
         </DataGrid.RowHeaderTemplate>
         <DataGrid.Columns>
