@@ -16,7 +16,7 @@ namespace AI_SAC.ViewModel.Converter
             if (!int.TryParse(value.ToString(), out x))
                 return x;
             ++x;
-            return (int)value + 1;
+            return (int)value;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
@@ -24,8 +24,8 @@ namespace AI_SAC.ViewModel.Converter
             int x = 0;
             if (!int.TryParse(value.ToString(), out x))
                 return x;
-            ++x;
-            return (int)value + 1;
+            --x;
+            return x.ToString();
         }
     }
 }
