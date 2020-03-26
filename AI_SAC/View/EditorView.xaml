@@ -63,7 +63,7 @@
                 AutoCompletion Program NOT Running
         </TextBlock>
 
-        <local:ExcelTableView Grid.Row="2" x:Name="XMLData" DataContext="{Binding ExcelTableViewModel}">
+        <local:ExcelTableView Grid.Row="2" x:Name="XMLDataGrid" DataContext="{Binding ExcelTableViewModel}">
             
         </local:ExcelTableView>
     </Grid>
