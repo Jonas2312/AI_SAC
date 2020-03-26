@@ -12,13 +12,12 @@ namespace AI_SAC.ViewModel.Converter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-
-            return (value as int) + 1;
+            return (int)value + 1;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return (value as int) - 1;
+            return (int)value - 1;
         }
     }
 }
