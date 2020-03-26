@@ -44,6 +44,7 @@ namespace AI_SAC.ViewModel
                 trigger = value;
                 dataItem.trigger = value;
                 dataItem.CreateID();
+                ID = dataItem.id;
                 NotifyPropertyChanged();
             }
         }
@@ -58,6 +59,7 @@ namespace AI_SAC.ViewModel
                 completion = value;
                 dataItem.completion = value;
                 dataItem.CreateID();
+                ID = dataItem.id;
                 NotifyPropertyChanged();
             }
         }
@@ -72,6 +74,7 @@ namespace AI_SAC.ViewModel
                 isReplacing = value;
                 dataItem.isReplacing = value;
                 dataItem.CreateID();
+                ID = dataItem.id;
                 NotifyPropertyChanged();
             }
         }
