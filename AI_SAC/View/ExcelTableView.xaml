@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AI_SAC.View" xmlns:my="clr-namespace:AI_SAC.ViewModel.Rules" xmlns:converter="clr-namespace:AI_SAC.ViewModel.Converter"
              mc:Ignorable="d" x:Name="ThisExcelTable">
 
-    <DataGrid Name="DataGrid" AlternationCount="{Binding XMLData.Count}" SelectionUnit="CellOrRowHeader"  Name="DataGrid" HeadersVisibility="All" ItemsSource="{Binding Path=XMLData, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">
+    <DataGrid Name="DataGrid" AlternationCount="{Binding XMLData.Count}" SelectionUnit="CellOrRowHeader" HeadersVisibility="All" ItemsSource="{Binding Path=XMLData, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">
         <DataGrid.Resources>
             <CollectionViewSource x:Key="CurrentCollection" Source="{Binding Path=XMLData}" />
             <converter:PlusOneConverter x:Key="PlusOneConverter"></converter:PlusOneConverter>
