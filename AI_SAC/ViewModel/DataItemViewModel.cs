@@ -78,5 +78,15 @@ namespace AI_SAC.ViewModel
                 NotifyPropertyChanged();
             }
         }
+
+        private bool shouldBeDisplayed;
+        public bool ShouldBeDisplayed
+        {
+            get { return shouldBeDisplayed; }
+            set
+            {
+                shouldBeDisplayed = ShouldBeDisplayed;
+            }
+        }
     }
 }
