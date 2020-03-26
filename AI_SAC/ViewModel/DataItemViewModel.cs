@@ -80,13 +80,13 @@ namespace AI_SAC.ViewModel
             }
         }
 
-        private Visibility shouldBeDisplayed;
-        public Visibility ShouldBeDisplayed
+        private Visibility itemVisibility;
+        public Visibility ItemVisibility
         {
-            get { return shouldBeDisplayed; }
+            get { return itemVisibility; }
             set
             {
-                shouldBeDisplayed = ShouldBeDisplayed;
+                itemVisibility = ItemVisibility;
                 NotifyPropertyChanged();
             }
         }
