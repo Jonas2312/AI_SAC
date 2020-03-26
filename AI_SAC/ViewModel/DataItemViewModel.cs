@@ -86,7 +86,7 @@ namespace AI_SAC.ViewModel
             get { return itemVisibility; }
             set
             {
-                itemVisibility = ItemVisibility;
+                itemVisibility = value;
                 NotifyPropertyChanged();
             }
         }
