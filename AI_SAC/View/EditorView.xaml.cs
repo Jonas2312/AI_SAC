@@ -49,6 +49,11 @@ namespace AI_SAC.View
             foreach(DataItemViewModel divm in editorViewModel.ExcelTableViewModel.XMLData)
             {
                 string searched = tb.Text;
+                if (string.IsNullOrWhiteSpace(searched))
+                {
+                    tb.Visible = Visibility.Visible;
+                    continue;
+                }
                 if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
                 {
 
