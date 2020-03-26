@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
+using TextBox = System.Windows.Forms.TextBox;
 
 namespace AI_SAC.View
 { 
