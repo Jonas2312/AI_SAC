@@ -58,8 +58,7 @@ namespace AI_SAC.View
                     tb.Visibility = Visibility.Visible;
                     continue;
                 }
-
-
+                tb.Visibility = Visibility.Collapsed;
             }
         }
         private void StartProgramButton_Click(object sender, RoutedEventArgs e)
