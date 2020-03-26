@@ -13,11 +13,7 @@
         <DataGrid.RowHeaderWidth>30</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
             <DataTemplate>
-                <TextBlock>
-                    <TextBlock.Text>
-                        <Binding />
-                    </TextBlock.Text>
-                </TextBlock>
+                <TextBlock Text="{Binding}"/>
             </DataTemplate>
         </DataGrid.RowHeaderTemplate>
         <DataGrid.Columns>
