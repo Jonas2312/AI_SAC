@@ -10,6 +10,9 @@
         <DataGrid.Resources>
             <CollectionViewSource x:Key="CurrentCollection" Source="{Binding Path=XMLData}" />
             <converter:PlusOneConverter x:Key="PlusOneConverter"></converter:PlusOneConverter>
+            <Style TargetType="DataGridRow">
+                <Setter Property="Visibility" Value="{Binding ...}" />
+            </Style>
         </DataGrid.Resources>
         <DataGrid.RowHeaderWidth>30</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
