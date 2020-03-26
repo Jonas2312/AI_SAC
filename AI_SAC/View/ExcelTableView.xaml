@@ -13,9 +13,7 @@
         <DataGrid.RowHeaderWidth>150</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
             <DataTemplate>
-                <TextBlock Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor,  
-                                  AncestorType={x:Type DataGridRow}},  
-                                  Path=Item.ID, StringFormat='ID = {0}'}"/>
+                <Button Click="ChangeText">Remove</Button>
             </DataTemplate>
         </DataGrid.RowHeaderTemplate>
         <DataGrid.Columns>
