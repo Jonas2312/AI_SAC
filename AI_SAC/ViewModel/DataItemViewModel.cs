@@ -30,7 +30,6 @@ namespace AI_SAC.ViewModel
             {
                 id = value;
                 dataItem.id = value;
-                dataItem.CreateID();
                 NotifyPropertyChanged();
             }
         }
