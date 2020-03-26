@@ -44,7 +44,7 @@ namespace AI_SAC.View
 
         private void OnSearchTextChanged(object sender, RoutedEventArgs e)
         {
-            foreach(DataItemViewModel divm in editorViewModel.ExcelTableViewModel)
+            foreach(DataItemViewModel divm in editorViewModel.ExcelTableViewModel.XMLData)
             {
 
             }
