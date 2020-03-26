@@ -7,12 +7,9 @@ namespace AI_SAC.Model.XML
     public class DataItem
     {
         public string id { get; set; }
-        public string trigger { get { return trigger; }
-            set { CreateID(); } }
-        public string completion { get { return completion; }
-            set { CreateID(); } }
-        public bool isReplacing { get { return isReplacing; }
-            set {  } }
+        public string trigger { get; set; }
+        public string completion { get; set; }
+        public bool isReplacing { get; set; }
 
         public DataItem()
         {
