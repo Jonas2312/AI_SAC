@@ -53,10 +53,13 @@ namespace AI_SAC.View
                     tb.Visibility = Visibility.Visible;
                     continue;
                 }
-                if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
+                else if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
                 {
-
+                    tb.Visibility = Visibility.Visible;
+                    continue;
                 }
+
+
             }
         }
         private void StartProgramButton_Click(object sender, RoutedEventArgs e)
