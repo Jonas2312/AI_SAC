@@ -49,7 +49,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
-            <DataGridTemplateColumn  Width="70" Header="Remove Items">
+            <DataGridTemplateColumn  Width="100" Header="Remove Items">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
                         <Button Click="ChangeText" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">Remove Item</Button>
