@@ -5,9 +5,4 @@
     trigger="Hallo"
     completion=" Welt!"
     isReplacing="False" />
-  <DataItem
-    id="6903460493718571500"
-    trigger="Ha"
-    completion=""
-    isReplacing="False" />
 </DataCollection>
