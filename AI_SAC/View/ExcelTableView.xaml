@@ -20,7 +20,7 @@
             <DataGridTemplateColumn Width="175" Header="Trigger">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <TextBox TextChanged="OnTextChanged" LostFocus="TextBoxLostFocus" GotFocus="TextBoxGainFocus">
+                        <TextBox Height="*" TextChanged="OnTextChanged" LostFocus="TextBoxLostFocus" GotFocus="TextBoxGainFocus">
                             <Binding Path="Trigger" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged" >
                                 <Binding.ValidationRules>
                                     <my:UniqueTrigger  CurrentCollection="{StaticResource CurrentCollection}" ValidationStep="CommittedValue"/>
@@ -34,17 +34,17 @@
             <DataGridTemplateColumn Width="*" Header="Completion">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <TextBox>
+                        <TextBox Height="*">
                             <Binding  Path="Completion" UpdateSourceTrigger="PropertyChanged" >
                             </Binding>
                         </TextBox>
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
-            <DataGridTemplateColumn Width="70" Header="IsReplacing">
+            <DataGridTemplateColumn  Width="70" Header="IsReplacing">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <CheckBox IsChecked="{Binding IsReplacing, UpdateSourceTrigger=PropertyChanged}">
+                        <CheckBox Height="*" IsChecked="{Binding IsReplacing, UpdateSourceTrigger=PropertyChanged}">
                             </CheckBox>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
