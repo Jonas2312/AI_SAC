@@ -15,7 +15,7 @@
             <DataTemplate>
                 <TextBlock>
                     <TextBlock.Text>
-                        <Binding></Binding>
+                        <Binding />
                     </TextBlock.Text>
                 </TextBlock>
             </DataTemplate>
