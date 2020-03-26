@@ -8,7 +8,7 @@ using System.Windows.Data;
 
 namespace AI_SAC.ViewModel.Converter
 {
-    class PlusOneConverter : IValueConverter
+    public class PlusOneConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
