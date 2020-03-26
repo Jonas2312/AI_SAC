@@ -55,7 +55,7 @@
             </TextBlock>
         </Button>
 
-        <Label Name="SearchLabel" Grid.Row="0" Margin="700,50,0,0" Content="Search for:"></Label>
+        <Label Name="SearchLabel" Grid.Row="0" Margin="675,50,0,0" Content="Search for:"></Label>
         <TextBox Name="SearchTextBox" Grid.Row="0" Width="100" Height="50" Margin="625,25,0,0" TextChanged="OnSearchTextChanged"/>
 
         <TextBlock Name="ProgramRunningText" Grid.Row="3" Foreground="Red" FontSize="40">
