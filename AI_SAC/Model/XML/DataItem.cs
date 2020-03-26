@@ -23,7 +23,7 @@ namespace AI_SAC.Model.XML
             this.isReplacing = isReplacing;
         }
 
-        private void CreateID()
+        public void CreateID()
         {
             id = trigger.GetHashCode().ToString();
             id += completion.GetHashCode().ToString();
