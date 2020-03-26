@@ -31,7 +31,7 @@
 
 
 
-        <Button Name="StartProgramButton" Grid.Row="1" Width="200" Height="75" Margin="25,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StartProgramButton_Click">
+        <Button Name="StartProgramButton" Grid.Row="2" Width="200" Height="75" Margin="25,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StartProgramButton_Click">
             <Button.Background>
                 <SolidColorBrush Color="Blue" Opacity="0.3" />
             </Button.Background>
@@ -40,7 +40,7 @@
             </TextBlock>
         </Button>
 
-        <Button Name="StopProgramButton" Grid.Row="1" Width="600" Height="75" Margin="250,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StopProgramButton_Click">
+        <Button Name="StopProgramButton" Grid.Row="2" Width="600" Height="75" Margin="250,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StopProgramButton_Click">
             <Button.Background>
                 <SolidColorBrush Color="Red" Opacity="0.6" />
             </Button.Background>
@@ -66,7 +66,7 @@
                 AutoCompletion Program NOT Running
         </TextBlock>
 
-        <local:ExcelTableView Grid.Row="2" x:Name="XMLDataGrid" DataContext="{Binding ExcelTableViewModel}">
+        <local:ExcelTableView Grid.Row="1" x:Name="XMLDataGrid" DataContext="{Binding ExcelTableViewModel}">
             
         </local:ExcelTableView>
     </Grid>
