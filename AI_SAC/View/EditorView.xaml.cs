@@ -50,15 +50,15 @@ namespace AI_SAC.View
                 string searched = tb.Text;
                 if (string.IsNullOrWhiteSpace(searched))
                 {
-                    tb.Visibility = Visibility.Visible;
+                    divm.ItemVisibility = Visibility.Visible;
                     continue;
                 }
                 else if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
                 {
-                    tb.Visibility = Visibility.Visible;
+                    divm.ItemVisibility = Visibility.Visible;
                     continue;
                 }
-                tb.Visibility = Visibility.Collapsed;
+                divm.ItemVisibility = Visibility.Collapsed;
             }
         }
         private void StartProgramButton_Click(object sender, RoutedEventArgs e)
