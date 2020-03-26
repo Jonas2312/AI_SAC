@@ -12,7 +12,7 @@ namespace AI_SAC.Model.XML
         public string completion { get { return completion; }
             set { CreateID(); } }
         public bool isReplacing { get { return isReplacing; }
-            set { CreateID(); } }
+            set {  } }
 
         public DataItem()
         {
