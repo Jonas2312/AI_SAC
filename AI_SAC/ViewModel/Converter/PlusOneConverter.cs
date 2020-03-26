@@ -12,6 +12,10 @@ namespace AI_SAC.ViewModel.Converter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
+            int x = 0;
+            if (!int.TryParse(value, x))
+                return x;
+            ++x;
             return (int)value + 1;
         }
 
