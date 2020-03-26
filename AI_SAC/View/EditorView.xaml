@@ -55,6 +55,8 @@
             </TextBlock>
         </Button>
 
+        <TextBox Name="SearchTextBox" TextChanged="OnSearchTextChanged"/>
+
         <TextBlock Name="ProgramRunningText" Grid.Row="3" Foreground="Red" FontSize="40">
                 AutoCompletion Program Running
         </TextBlock>
