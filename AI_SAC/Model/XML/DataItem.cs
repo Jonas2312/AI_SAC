@@ -25,7 +25,7 @@ namespace AI_SAC.Model.XML
 
         private void CreateID()
         {
-
+            id = trigger.GetHashCode().ToString();
         }
     }
 }
