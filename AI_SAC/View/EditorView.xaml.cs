@@ -49,7 +49,7 @@ namespace AI_SAC.View
             foreach(DataItemViewModel divm in editorViewModel.ExcelTableViewModel.XMLData)
             {
                 string searched = tb.Text;
-                if(divm.Trigger.Contains(searcher) || divm.Completion.Contains(searcher))
+                if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
                 {
 
                 }
