@@ -9,7 +9,8 @@ namespace AI_SAC.Model.XML
         public string id { get; set; }
         public string trigger { get { return trigger; }
             set { CreateID(); } }
-        public string completion { get { return completion; } set; }
+        public string completion { get { return completion; }
+            set { CreateID(); } }
         public bool isReplacing { get; set; }
 
         public DataItem()
