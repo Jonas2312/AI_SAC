@@ -11,9 +11,9 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="75" />
-            <RowDefinition Height="100" />
+            <RowDefinition Height="125" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="100" />
             <RowDefinition Height="75" />
         </Grid.RowDefinitions>
 
