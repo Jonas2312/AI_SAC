@@ -10,10 +10,10 @@
         <DataGrid.Resources>
             <CollectionViewSource x:Key="CurrentCollection" Source="{Binding Path=XMLData}" />
         </DataGrid.Resources>
-        <DataGrid.RowHeaderWidth>75</DataGrid.RowHeaderWidth>
+        <DataGrid.RowHeaderWidth>100</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
             <DataTemplate>
-                <Button Click="ChangeText" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">Remove</Button>
+                <Button Click="ChangeText" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">Remove Item</Button>
             </DataTemplate>
         </DataGrid.RowHeaderTemplate>
         <DataGrid.Columns>
