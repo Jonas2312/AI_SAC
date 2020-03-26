@@ -11,7 +11,8 @@ namespace AI_SAC.Model.XML
             set { CreateID(); } }
         public string completion { get { return completion; }
             set { CreateID(); } }
-        public bool isReplacing { get; set; }
+        public bool isReplacing {
+            get { return completion; set; }
 
         public DataItem()
         {
