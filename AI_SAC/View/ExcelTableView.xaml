@@ -9,6 +9,7 @@
     <DataGrid AlternationCount="{Binding XMLData.Count}" SelectionUnit="CellOrRowHeader"  Name="DataGrid" HeadersVisibility="All" ItemsSource="{Binding Path=XMLData, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">
         <DataGrid.Resources>
             <CollectionViewSource x:Key="CurrentCollection" Source="{Binding Path=XMLData}" />
+            <conv:IntConverter x:Key="PlusOneConverter"></conv:IntConverter>
         </DataGrid.Resources>
         <DataGrid.RowHeaderWidth>30</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
