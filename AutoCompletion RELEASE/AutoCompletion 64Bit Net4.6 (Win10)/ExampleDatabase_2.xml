@@ -10,4 +10,9 @@
     trigger="Der Braunbär"
     completion=" ist eines der Tiere, die besonders viel Hunger haben."
     isReplacing="False" />
+  <DataItem
+    id="9331146923720293100"
+    trigger="Ont the go"
+    completion=" "
+    isReplacing="False" />
 </DataCollection>
