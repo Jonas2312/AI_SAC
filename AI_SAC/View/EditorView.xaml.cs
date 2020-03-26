@@ -53,7 +53,7 @@ namespace AI_SAC.View
                     divm.ItemVisibility = Visibility.Visible;
                     continue;
                 }
-                else if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
+                else if(divm.Trigger.ToLower().Contains(searched.ToLower()) || divm.Completion.ToLower().Contains(searched.ToLower()))
                 {
                     divm.ItemVisibility = Visibility.Visible;
                     continue;
