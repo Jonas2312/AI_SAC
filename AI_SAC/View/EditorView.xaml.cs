@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
-using TextBox = System.Windows.Forms.TextBox;
+using TextBox = System.Windows.Controls.TextBox;
 
 namespace AI_SAC.View
 { 
@@ -51,7 +51,7 @@ namespace AI_SAC.View
                 string searched = tb.Text;
                 if (string.IsNullOrWhiteSpace(searched))
                 {
-                    tb.Visible = Visibility.Visible;
+                    tb.Val = Visibility.Visible;
                     continue;
                 }
                 if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
