@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AI_SAC.ViewModel.Converter
 {
-    class PlusOneConverter
+    class PlusOneConverter : IValueConverter
     {
     }
 }

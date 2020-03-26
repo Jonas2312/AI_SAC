@@ -111,6 +111,7 @@
     <Compile Include="Model\HookFeed\StringConverter.cs" />
     <Compile Include="Others\Utils.cs" />
     <Compile Include="ViewModel\Converter\IntToBoolConverter.cs" />
+    <Compile Include="ViewModel\Converter\PlusOneConverter.cs" />
     <Compile Include="ViewModel\DataCollectionViewModel.cs" />
     <Compile Include="ViewModel\EditorViewModel.cs" />
     <Compile Include="ViewModel\ExcelTableViewModel.cs" />
