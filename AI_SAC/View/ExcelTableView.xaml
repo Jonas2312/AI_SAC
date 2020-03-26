@@ -34,7 +34,7 @@
             <DataGridTemplateColumn Width="*" Header="Completion">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <TextBox Height="*">
+                        <TextBox Height="auto">
                             <Binding  Path="Completion" UpdateSourceTrigger="PropertyChanged" >
                             </Binding>
                         </TextBox>
@@ -44,7 +44,7 @@
             <DataGridTemplateColumn  Width="70" Header="IsReplacing">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                        <CheckBox Height="*" IsChecked="{Binding IsReplacing, UpdateSourceTrigger=PropertyChanged}">
+                        <CheckBox Height="auto" IsChecked="{Binding IsReplacing, UpdateSourceTrigger=PropertyChanged}">
                             </CheckBox>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
