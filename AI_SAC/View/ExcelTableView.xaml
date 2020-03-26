@@ -13,7 +13,7 @@
         <DataGrid.RowHeaderWidth>75</DataGrid.RowHeaderWidth>
         <DataGrid.RowHeaderTemplate>
             <DataTemplate>
-                <Button Click="ChangeText">Remove</Button>
+                <Button Click="ChangeText" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">Remove</Button>
             </DataTemplate>
         </DataGrid.RowHeaderTemplate>
         <DataGrid.Columns>
