@@ -86,6 +86,7 @@ namespace AI_SAC.ViewModel
             set
             {
                 shouldBeDisplayed = ShouldBeDisplayed;
+                NotifyPropertyChanged();
             }
         }
     }
