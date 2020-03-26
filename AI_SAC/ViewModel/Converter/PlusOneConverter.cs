@@ -10,7 +10,7 @@ namespace AI_SAC.ViewModel.Converter
 {
     public class PlusOneConverter : IValueConverter
     {
-        public static object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             int x = 0;
             if (!int.TryParse(value.ToString(), out x))
@@ -19,7 +19,7 @@ namespace AI_SAC.ViewModel.Converter
             return (int)value;
         }
 
-        public static object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             int x = 0;
             if (!int.TryParse(value.ToString(), out x))
