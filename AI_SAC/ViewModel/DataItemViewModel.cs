@@ -1,5 +1,6 @@
 ﻿using AI_SAC.Model.XML;
 using AI_SAC.Others;
+using System.Windows;
 
 namespace AI_SAC.ViewModel
 {
@@ -79,8 +80,8 @@ namespace AI_SAC.ViewModel
             }
         }
 
-        private bool shouldBeDisplayed;
-        public bool ShouldBeDisplayed
+        private Visibility shouldBeDisplayed;
+        public Visibility ShouldBeDisplayed
         {
             get { return shouldBeDisplayed; }
             set
