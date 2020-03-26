@@ -8,7 +8,6 @@ using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
-using TextBox = System.Windows.Controls.TextBox;
 
 namespace AI_SAC.View
 { 
@@ -45,13 +44,13 @@ namespace AI_SAC.View
 
         private void OnSearchTextChanged(object sender, RoutedEventArgs e)
         {
-            TextBox tb = (TextBox)sender;
+            System.Windows.Controls.TextBox tb = (System.Windows.Controls.TextBox)sender;
             foreach(DataItemViewModel divm in editorViewModel.ExcelTableViewModel.XMLData)
             {
                 string searched = tb.Text;
                 if (string.IsNullOrWhiteSpace(searched))
                 {
-                    tb.Val = Visibility.Visible;
+                    tb.Visibility = Visibility.Visible;
                     continue;
                 }
                 if(divm.Trigger.Contains(searched) || divm.Completion.Contains(searched))
