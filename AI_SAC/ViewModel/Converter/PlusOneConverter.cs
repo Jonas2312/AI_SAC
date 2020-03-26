@@ -13,7 +13,7 @@ namespace AI_SAC.ViewModel.Converter
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             int x = 0;
-            if (!int.TryParse(value, x))
+            if (!int.TryParse(value.ToString(), out x))
                 return x;
             ++x;
             return (int)value + 1;
@@ -21,7 +21,11 @@ namespace AI_SAC.ViewModel.Converter
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return (int)value - 1;
+            int x = 0;
+            if (!int.TryParse(value.ToString(), out x))
+                return x;
+            ++x;
+            return (int)value + 1;
         }
     }
 }
