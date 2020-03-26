@@ -22,5 +22,10 @@ namespace AI_SAC.Model.XML
             this.completion = value;
             this.isReplacing = isReplacing;
         }
+
+        private void CreateID()
+        {
+
+        }
     }
 }
