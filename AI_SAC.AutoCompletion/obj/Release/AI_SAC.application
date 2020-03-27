@@ -8,6 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
+    <deploymentProvider codebase="https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Release/AI_SAC.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
