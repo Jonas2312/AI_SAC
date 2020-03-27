@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PublishUrlHistory>C:\Users\Ile de France\Desktop\GitHub\Publish\|C:\Users\Ile de France\Desktop\AI_SAC\|C:\Users\Ile de France\Desktop\AI_SAC\Published\|https://github.com/Jonas2312/AI_SAC/blob/master/Published/|https://github.com/Jonas2312/AI_SAC/blob/master/Published/AI_SAC.application/</PublishUrlHistory>
-    <InstallUrlHistory>https://github.com/Jonas2312/AI_SAC/|https://github.com/Jonas2312/AI_SAC/tree/master/Published/</InstallUrlHistory>
+    <InstallUrlHistory>https://github.com/Jonas2312/Jonas2312.github.io/|https://github.com/Jonas2312/AI_SAC/|https://github.com/Jonas2312/AI_SAC/tree/master/Published/</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory>https://github.com/Jonas2312/AI_SAC/tree/master/Published/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
