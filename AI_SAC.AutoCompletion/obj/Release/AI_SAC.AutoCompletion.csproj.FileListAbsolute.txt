@@ -26,3 +26,4 @@ C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Release\AI_SAC.a
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Release\AI_SAC.AutoCompletion.csproj.CopyComplete
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Release\AI_SAC.exe
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Release\AI_SAC.pdb
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Release\AI_SAC.AutoCompletion.csprojAssemblyReference.cache
