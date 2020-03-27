@@ -1,10 +1,7 @@
-using AI_SAC.Model.HookFeed;
-using AI_SAC.Model.XML;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Threading;
 using System.Threading.Tasks;
 
-namespace AI_SAC_TestUnit
+namespace AI_SAC.AutoCompletion_TestUnit
 {
     [TestClass]
     public class KeyHookFeedTest
