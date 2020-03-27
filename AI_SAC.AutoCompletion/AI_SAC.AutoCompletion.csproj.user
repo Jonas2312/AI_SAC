@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PublishUrlHistory>C:\Users\Ile de France\Desktop\AI_SAC\Published\</PublishUrlHistory>
-    <InstallUrlHistory />
+    <InstallUrlHistory>https://github.com/Jonas2312/AI_SAC/tree/master/Published/</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory>https://github.com/Jonas2312/AI_SAC/tree/master/Published/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
