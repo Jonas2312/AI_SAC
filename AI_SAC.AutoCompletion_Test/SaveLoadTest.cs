@@ -1,8 +1,7 @@
 ﻿
-using AI_SAC_TestUnit.AutoCompletion.Model.XML;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AI_SAC_TestUnit
+namespace AI_SAC.AutoCompletion_TestUnit
 {
     [TestClass]
     public class SaveLoadTest
