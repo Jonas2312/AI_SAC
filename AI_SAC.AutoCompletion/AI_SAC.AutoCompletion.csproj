@@ -26,12 +26,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <InstallUrl>https://github.com/Jonas2312/AI_SAC/releases/latest/download/</InstallUrl>
-    <UpdateUrl>https://github.com/Jonas2312/AI_SAC/releases/latest/download/</UpdateUrl>
+    <InstallUrl>https://github.com/Jonas2312/AI_SAC/blob/master/Release/</InstallUrl>
+    <UpdateUrl>https://github.com/Jonas2312/AI_SAC/blob/master/Release/</UpdateUrl>
     <WebPage>index.html</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>31</ApplicationRevision>
+    <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>

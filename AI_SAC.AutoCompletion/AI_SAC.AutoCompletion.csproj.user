@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PublishUrlHistory>C:\Users\Ile de France\Desktop\AI_SAC\Release\|C:\Users\Ile de France\Desktop\AI_SAC\Publish\|https://github.com/Jonas2312/AI_SAC/releases/latest/download/|C:\Users\Ile de France\Desktop\GitHub\Publish\Jonas2312.github.io\|C:\Users\Ile de France\Desktop\GitHub\Publish\</PublishUrlHistory>
-    <InstallUrlHistory>https://github.com/Jonas2312/AI_SAC/releases/latest/download/|https://jonas2312.github.io/|https://github.com/Jonas2312/Jonas2312.github.io/|https://github.com/Jonas2312/AI_SAC/|https://github.com/Jonas2312/AI_SAC/tree/master/Published/</InstallUrlHistory>
+    <InstallUrlHistory>https://github.com/Jonas2312/AI_SAC/blob/master/Release/|https://github.com/Jonas2312/AI_SAC/releases/latest/download/|https://jonas2312.github.io/|https://github.com/Jonas2312/Jonas2312.github.io/|https://github.com/Jonas2312/AI_SAC/</InstallUrlHistory>
     <SupportUrlHistory />
     <UpdateUrlHistory>https://github.com/Jonas2312/AI_SAC/releases/latest/download/|https://jonas2312.github.io/|https://github.com/Jonas2312/Jonas2312.github.io/|https://github.com/Jonas2312/AI_SAC/tree/master/Published/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
