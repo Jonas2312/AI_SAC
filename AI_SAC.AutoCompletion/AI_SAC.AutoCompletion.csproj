@@ -27,10 +27,10 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Published/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Release/</UpdateUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Published/</UpdateUrl>
     <WebPage>index.html</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
