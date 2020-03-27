@@ -1,5 +1,5 @@
-﻿using AI_SAC.Model.Analyzer;
-using AI_SAC.Model.XML;
+﻿using AI_SAC.AutoCompletion.Model.Analyzer;
+using AI_SAC.AutoCompletion.Model.XML;
 using Gma.System.MouseKeyHook;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AI_SAC.Model.HookFeed
+namespace AI_SAC.AutoCompletion.Model.HookFeed
 {
     public class HookFeedController
     {

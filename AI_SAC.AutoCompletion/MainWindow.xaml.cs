@@ -1,4 +1,4 @@
-﻿using AI_SAC.View;
+﻿using AI_SAC.AutoCompletion.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AI_SAC
+namespace AI_SAC.AutoCompletion
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

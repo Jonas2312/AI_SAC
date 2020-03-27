@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Xml.Linq;
 
-namespace AI_SAC.Model.XML
+namespace AI_SAC.AutoCompletion.Model.XML
 {
     public static class XMLLoad
     {

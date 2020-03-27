@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace AI_SAC.Others
+namespace AI_SAC.AutoCompletion.Others
 {
     public class ObservableObject : INotifyPropertyChanged
     {

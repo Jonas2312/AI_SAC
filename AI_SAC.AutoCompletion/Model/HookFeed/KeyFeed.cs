@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AI_SAC.Model.HookFeed
+namespace AI_SAC.AutoCompletion.Model.HookFeed
 {
     public class KeyFeed
     {

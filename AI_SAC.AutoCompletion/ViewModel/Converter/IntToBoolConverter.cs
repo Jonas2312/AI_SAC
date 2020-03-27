@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AI_SAC.ViewModel.Converter
+namespace AI_SAC.AutoCompletion.ViewModel.Converter
 {
     class IntToBoolConverter
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace AI_SAC.View
+namespace AI_SAC.AutoCompletion.View
 {
 	/// <summary>
 	/// Interaction logic for AddItemDialog.xaml

@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AI_SAC.Others
+namespace AI_SAC.AutoCompletion.Others
 {
     public static class Utils
     {

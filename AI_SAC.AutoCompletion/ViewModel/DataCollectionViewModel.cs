@@ -1,4 +1,4 @@
-﻿using AI_SAC.Model.XML;
+﻿using AI_SAC.AutoCompletion.Model.XML;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace AI_SAC.ViewModel
+namespace AI_SAC.AutoCompletion.ViewModel
 {
     public class DataCollectionViewModel : ObservableCollection<DataItemViewModel>
     {

@@ -1,5 +1,5 @@
-﻿using AI_SAC.Model.XML;
-using AI_SAC.ViewModel;
+﻿using AI_SAC.AutoCompletion.Model.XML;
+using AI_SAC.AutoCompletion.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace AI_SAC.View
+namespace AI_SAC.AutoCompletion.View
 {
     /// <summary>
     /// Interaction logic for ExcelTableView.xaml

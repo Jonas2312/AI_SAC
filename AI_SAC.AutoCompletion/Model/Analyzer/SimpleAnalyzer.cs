@@ -1,10 +1,10 @@
-﻿using AI_SAC.Model.HookFeed;
-using AI_SAC.Model.XML;
+﻿using AI_SAC.AutoCompletion.Model.HookFeed;
+using AI_SAC.AutoCompletion.Model.XML;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace AI_SAC.Model.Analyzer
+namespace AI_SAC.AutoCompletion.Model.Analyzer
 {
     public class SimpleAnalyzer : KeyAnalyzer
     {

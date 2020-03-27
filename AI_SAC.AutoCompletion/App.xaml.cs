@@ -1,6 +1,6 @@
-﻿using AI_SAC.Model.HookFeed;
-using AI_SAC.Model.XML;
-using AI_SAC.Others;
+﻿using AI_SAC.AutoCompletion.Model.HookFeed;
+using AI_SAC.AutoCompletion.Model.XML;
+using AI_SAC.AutoCompletion.Others;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace AI_SAC
+namespace AI_SAC.AutoCompletion
 {
     /// <summary>
     /// Interaction logic for App.xaml

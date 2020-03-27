@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AI_SAC.Model.XML
+namespace AI_SAC.AutoCompletion.Model.XML
 {
     public class DataItem
     {

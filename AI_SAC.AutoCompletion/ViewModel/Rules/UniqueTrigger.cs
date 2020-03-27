@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace AI_SAC.ViewModel.Rules
+namespace AI_SAC.AutoCompletion.ViewModel.Rules
 {
     public class UniqueTrigger : ValidationRule
     {

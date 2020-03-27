@@ -1,10 +1,10 @@
-﻿using AI_SAC.ViewModel;
+﻿using AI_SAC.AutoCompletion.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 
-namespace AI_SAC.Model.XML
+namespace AI_SAC.AutoCompletion.Model.XML
 {
     public class DataCollection : List<DataItem>
     {

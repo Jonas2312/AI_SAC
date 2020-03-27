@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace AI_SAC.ViewModel.Converter
+namespace AI_SAC.AutoCompletion.ViewModel.Converter
 {
     public class PlusOneConverter : IValueConverter
     {

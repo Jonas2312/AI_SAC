@@ -1,8 +1,8 @@
-﻿using AI_SAC.Model.XML;
-using AI_SAC.Others;
+﻿using AI_SAC.AutoCompletion.Model.XML;
+using AI_SAC.AutoCompletion.Others;
 using System.Windows;
 
-namespace AI_SAC.ViewModel
+namespace AI_SAC.AutoCompletion.ViewModel
 {
     public class DataItemViewModel : ObservableObject
     {

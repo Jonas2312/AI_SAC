@@ -1,6 +1,6 @@
-﻿using AI_SAC.Model.XML;
-using AI_SAC.Others;
-using AI_SAC.View;
+﻿using AI_SAC.AutoCompletion.Model.XML;
+using AI_SAC.AutoCompletion.Others;
+using AI_SAC.AutoCompletion.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,7 +9,7 @@ using System.ComponentModel;
 using System.Text;
 using System.Windows;
 
-namespace AI_SAC.ViewModel
+namespace AI_SAC.AutoCompletion.ViewModel
 {
     public class ExcelTableViewModel : ObservableObject
     {

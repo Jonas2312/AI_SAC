@@ -1,11 +1,11 @@
-﻿using AI_SAC.Model.HookFeed;
+﻿using AI_SAC.AutoCompletion.Model.HookFeed;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AI_SAC.Model.Analyzer
+namespace AI_SAC.AutoCompletion.Model.Analyzer
 {
     public class AI_Analyzer : KeyAnalyzer
     {
