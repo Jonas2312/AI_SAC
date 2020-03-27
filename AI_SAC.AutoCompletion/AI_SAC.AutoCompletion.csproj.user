@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>C:\Users\Ile de France\Desktop\AI_SAC\Publish\|C:\Users\Ile de France\Desktop\GitHub\Publish\Jonas2312.github.io\|C:\Users\Ile de France\Desktop\GitHub\Publish\|C:\Users\Ile de France\Desktop\AI_SAC\|C:\Users\Ile de France\Desktop\AI_SAC\Published\</PublishUrlHistory>
+    <PublishUrlHistory>C:\Users\Ile de France\Desktop\AI_SAC\Publish\|https://github.com/Jonas2312/AI_SAC/releases/latest/download/|C:\Users\Ile de France\Desktop\GitHub\Publish\Jonas2312.github.io\|C:\Users\Ile de France\Desktop\GitHub\Publish\|C:\Users\Ile de France\Desktop\AI_SAC\</PublishUrlHistory>
     <InstallUrlHistory>https://github.com/Jonas2312/AI_SAC/releases/latest/download/|https://jonas2312.github.io/|https://github.com/Jonas2312/Jonas2312.github.io/|https://github.com/Jonas2312/AI_SAC/|https://github.com/Jonas2312/AI_SAC/tree/master/Published/</InstallUrlHistory>
     <SupportUrlHistory />
-    <UpdateUrlHistory>https://jonas2312.github.io/|https://github.com/Jonas2312/Jonas2312.github.io/|https://github.com/Jonas2312/AI_SAC/tree/master/Published/</UpdateUrlHistory>
+    <UpdateUrlHistory>https://github.com/Jonas2312/AI_SAC/releases/latest/download/|https://jonas2312.github.io/|https://github.com/Jonas2312/Jonas2312.github.io/|https://github.com/Jonas2312/AI_SAC/tree/master/Published/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>
