@@ -1,0 +1,7 @@
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI\bin\Release\AI.exe.config
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI\bin\Release\AI.exe
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI\bin\Release\AI.pdb
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI\obj\Release\AI_SAC.AI.csprojAssemblyReference.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI\obj\Release\AI_SAC.AI.csproj.CoreCompileInputs.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI\obj\Release\AI.exe
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI\obj\Release\AI.pdb

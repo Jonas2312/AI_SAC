@@ -1,0 +1,14 @@
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\AI_SAC.AI_Test.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\AI_SAC.AI_Test.pdb
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\obj\Release\AI_SAC.AI_Test.csprojAssemblyReference.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\obj\Release\AI_SAC.AI_Test.csproj.CoreCompileInputs.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\obj\Release\AI_SAC.AI_Test.csproj.CopyComplete
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\obj\Release\AI_SAC.AI_Test.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AI_Test\obj\Release\AI_SAC.AI_Test.pdb
