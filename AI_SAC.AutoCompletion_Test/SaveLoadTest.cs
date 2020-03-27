@@ -1,5 +1,6 @@
 ﻿
 using AI_SAC.AutoCompletion.Model.XML;
+using AI_SAC.AutoCompletion.Others;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AI_SAC.AutoCompletion_TestUnit
@@ -10,9 +11,9 @@ namespace AI_SAC.AutoCompletion_TestUnit
         [TestMethod]
         public void SaveLoadTest1()
         {
-            DataCollection xmlData = new DataCollection();
-            xmlData.Add(new DataItem(1, "a", "bc", false));
-            xmlData.Add(new DataItem(2, "tiat", "This is a test.", true));
+            DataCollection xmlData = new DataCollection("");
+            xmlData.Add(new DataItem("", "a", "bc", false));
+            xmlData.Add(new DataItem("" "tiat", "This is a test.", true));
 
             string filePath = Utils.getXMLFilePath();
             filePath += "test.xml";
