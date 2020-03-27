@@ -1,5 +1,4 @@
 ﻿
-using AI_SAC.Model.XML;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AI_SAC_TestUnit
