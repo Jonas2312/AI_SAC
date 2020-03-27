@@ -14,14 +14,14 @@
     <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="AI_SAC.AutoCompletion.exe.manifest" size="4415">
+    <dependentAssembly dependencyType="install" codebase="AI_SAC.AutoCompletion.exe.manifest" size="4203">
       <assemblyIdentity name="AI_SAC.AutoCompletion.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>j28yEx8+ObJHpeK2vvc9nDBKNFRdDZsIXkhRC3/y9hk=</dsig:DigestValue>
+        <dsig:DigestValue>CtrobTRxT4gb2AKg8/p4/TsswW7xNG1XJT0mfiSB4Xs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
