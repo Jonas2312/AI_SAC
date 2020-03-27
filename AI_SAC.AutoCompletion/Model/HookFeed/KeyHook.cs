@@ -1,12 +1,12 @@
 ﻿
-using AI_SAC.View;
+using AI_SAC.AutoCompletion.View;
 using Gma.System.MouseKeyHook;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AI_SAC.Model.HookFeed
+namespace AI_SAC.AutoCompletion.Model.HookFeed
 {
     public class KeyHook
     {

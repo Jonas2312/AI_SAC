@@ -1,9 +1,9 @@
-﻿<UserControl x:Class="AI_SAC.View.ExcelTableView"
+﻿<UserControl x:Class="AI_SAC.AutoCompletion.View.ExcelTableView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AI_SAC.View" xmlns:my="clr-namespace:AI_SAC.ViewModel.Rules" xmlns:converter="clr-namespace:AI_SAC.ViewModel.Converter"
+        xmlns:local="clr-namespace:AI_SAC.AutoCompletion.View" xmlns:my="clr-namespace:AI_SAC.AutoCompletion.ViewModel.Rules" xmlns:converter="clr-namespace:AI_SAC.AutoCompletion.ViewModel.Converter"
              mc:Ignorable="d" x:Name="ThisExcelTable">
 
     <DataGrid Name="DataGrid" AlternationCount="{Binding XMLData.Count}" SelectionUnit="CellOrRowHeader" HeadersVisibility="All" ItemsSource="{Binding Path=XMLData, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="False">

@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AI_SAC.View;
+using AI_SAC.AutoCompletion.View;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -32,7 +32,7 @@ using System.Windows.Shapes;
 using System.Windows.Shell;
 
 
-namespace AI_SAC.View {
+namespace AI_SAC.AutoCompletion.View {
     
     
     /// <summary>
@@ -131,7 +131,7 @@ namespace AI_SAC.View {
         
         #line 75 "..\..\..\..\View\EditorView.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal AI_SAC.View.ExcelTableView XMLDataGrid;
+        internal AI_SAC.AutoCompletion.View.ExcelTableView XMLDataGrid;
         
         #line default
         #line hidden
@@ -249,7 +249,7 @@ namespace AI_SAC.View {
             this.ProgramNotRunningText = ((System.Windows.Controls.TextBlock)(target));
             return;
             case 12:
-            this.XMLDataGrid = ((AI_SAC.View.ExcelTableView)(target));
+            this.XMLDataGrid = ((AI_SAC.AutoCompletion.View.ExcelTableView)(target));
             return;
             }
             this._contentLoaded = true;

@@ -1,5 +1,5 @@
 ﻿
-using AI_SAC.AutoCompletion.Model.XML;
+using AI_SAC_TestUnit.AutoCompletion.Model.XML;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AI_SAC_TestUnit

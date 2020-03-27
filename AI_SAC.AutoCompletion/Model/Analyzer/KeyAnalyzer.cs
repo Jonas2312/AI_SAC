@@ -1,8 +1,8 @@
-﻿using AI_SAC.Model.HookFeed;
+﻿using AI_SAC.AutoCompletion.Model.HookFeed;
 using System.Collections.Generic;
-using AI_SAC.Model.XML;
+using AI_SAC.AutoCompletion.Model.XML;
 
-namespace AI_SAC.Model.Analyzer
+namespace AI_SAC.AutoCompletion.Model.Analyzer
 {
     public abstract class KeyAnalyzer
     {

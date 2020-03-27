@@ -1,7 +1,7 @@
-﻿using AI_SAC.Model.HookFeed;
-using AI_SAC.Model.XML;
-using AI_SAC.Others;
-using AI_SAC.ViewModel;
+﻿using AI_SAC.AutoCompletion.Model.HookFeed;
+using AI_SAC.AutoCompletion.Model.XML;
+using AI_SAC.AutoCompletion.Others;
+using AI_SAC.AutoCompletion.ViewModel;
 using System;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
 
-namespace AI_SAC.View
+namespace AI_SAC.AutoCompletion.View
 { 
     /// <summary>
     /// Interaction logic for EditorView.xaml

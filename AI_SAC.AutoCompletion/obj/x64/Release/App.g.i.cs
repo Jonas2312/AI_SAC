@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AI_SAC;
+using AI_SAC.AutoCompletion;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -32,7 +32,7 @@ using System.Windows.Shapes;
 using System.Windows.Shell;
 
 
-namespace AI_SAC {
+namespace AI_SAC.AutoCompletion {
     
     
     /// <summary>
@@ -74,7 +74,7 @@ namespace AI_SAC {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            AI_SAC.App app = new AI_SAC.App();
+            AI_SAC.AutoCompletion.App app = new AI_SAC.AutoCompletion.App();
             app.InitializeComponent();
             app.Run();
         }
