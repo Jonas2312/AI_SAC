@@ -1,13 +1,6 @@
-﻿using AI_SAC.AutoCompletion.Model.XML;
-using AI_SAC.Others;
+﻿
+using AI_SAC.Model.XML;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AI_SAC_TestUnit
 {
