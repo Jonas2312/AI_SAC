@@ -42,8 +42,8 @@
             </TextBlock>
         </Button>
 
-        <Label Name="SearchLabel" Grid.Row="0" Margin="570,35,0,0" Content="Search for:"></Label>
-        <TextBox Name="SearchTextBox" VerticalAlignment="Top" Grid.Row="0" Width="150" Height="25" Margin="625,35,0,0" TextChanged="OnSearchTextChanged"/>
+        <Label Name="SearchLabel" HorizontalAlignment="Left" Grid.Row="0" Margin="570,35,0,0" Content="Search for:"></Label>
+        <TextBox Name="SearchTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Width="150" Height="25" Margin="625,35,0,0" TextChanged="OnSearchTextChanged"/>
 
 
         <Button Name="StartProgramButton" Grid.Row="2" Width="200" Height="75" Margin="25,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StartProgramButton_Click">
@@ -55,7 +55,7 @@
             </TextBlock>
         </Button>
 
-        <Button Name="StopProgramButton" HorizontalAlignment="Left" Grid.Row="2" Width="600" Height="75" Margin="250,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StopProgramButton_Click">
+        <Button Name="StopProgramButton" Grid.Row="2" Width="600" Height="75" Margin="250,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StopProgramButton_Click">
             <Button.Background>
                 <SolidColorBrush Color="Red" Opacity="0.6" />
             </Button.Background>
@@ -64,11 +64,11 @@
             </TextBlock>
         </Button>
 
-        <TextBlock Name="ProgramRunningText" Grid.Row="3" Foreground="Red" FontSize="40">
+        <TextBlock Name="ProgramRunningText" HorizontalAlignment="Left" Grid.Row="3" Foreground="Red" FontSize="40">
                 AutoCompletion Program Running
         </TextBlock>
 
-        <TextBlock Name="ProgramNotRunningText" Grid.Row="3" Foreground="Blue" FontSize="40">
+        <TextBlock Name="ProgramNotRunningText" HorizontalAlignment="Left" Grid.Row="3" Foreground="Blue" FontSize="40">
                 AutoCompletion Program NOT Running
         </TextBlock>
 
