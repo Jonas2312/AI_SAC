@@ -1,4 +1,4 @@
-﻿using AI_SAC.Model.XML;
+﻿using AI_SAC.AutoCompletion.Model.XML;
 using AI_SAC.Others;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
