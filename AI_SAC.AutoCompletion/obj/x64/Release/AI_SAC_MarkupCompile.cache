@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC\obj\x64\Release\
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\
 AI_SAC
 none
 false
 TRACE
-C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC\App.xaml
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\App.xaml
 429567099
 
-28712457100
+291367620575
 15853727025
 MainWindow.xaml;View\AddItemDialog.xaml;View\EditorView.xaml;View\ExcelTableView.xaml;
 

@@ -16,7 +16,7 @@
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Ile de France\Desktop\AI_SAC\Release\</PublishUrl>
+    <PublishUrl>C:\Users\Ile de France\Desktop\AI_SAC\Published\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -26,11 +26,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Release/</InstallUrl>
+    <InstallUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Published/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Release/</UpdateUrl>
     <WebPage>index.html</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
