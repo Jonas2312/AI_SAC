@@ -43,7 +43,7 @@
         </Button>
 
         <Label Name="SearchLabel" HorizontalAlignment="Left" Grid.Row="0" Margin="570,35,0,0" Content="Search for:"></Label>
-        <TextBox Name="SearchTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Width="150" Height="25" Margin="625,35,0,0" TextChanged="OnSearchTextChanged"/>
+        <TextBox Name="SearchTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="0" Width="150" Height="25" Margin="645,35,0,0" TextChanged="OnSearchTextChanged"/>
 
 
         <Button Name="StartProgramButton" Grid.Row="2" Width="200" Height="75" Margin="25,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StartProgramButton_Click">
