@@ -13,7 +13,7 @@ namespace AI_SAC.AutoCompletion_TestUnit
         {
             DataCollection xmlData = new DataCollection("");
             xmlData.Add(new DataItem("", "a", "bc", false));
-            xmlData.Add(new DataItem("" "tiat", "This is a test.", true));
+            xmlData.Add(new DataItem("", "tiat", "This is a test.", true));
 
             string filePath = Utils.getXMLFilePath();
             filePath += "test.xml";

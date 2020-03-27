@@ -1,2 +1,18 @@
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Release\AI_SAC.AutoCompletion_Test.csprojAssemblyReference.cache
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Release\AI_SAC.AutoCompletion_Test.csproj.CoreCompileInputs.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\AI_SAC TestUnit.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\AI_SAC TestUnit.pdb
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\AI_SAC.AutoCompletion.exe
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Gma.System.MouseKeyHook.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\AI_SAC.AutoCompletion.pdb
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\AI_SAC.AutoCompletion.exe.config
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Release\AI_SAC.AutoCompletion_Test.csproj.CopyComplete
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Release\AI_SAC TestUnit.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Release\AI_SAC TestUnit.pdb
