@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AI_SAC\AutoCompletion.csproj">
+    <ProjectReference Include="..\AI_SAC.AutoCompletion\AI_SAC.AutoCompletion.csproj">
       <Project>{2cec9d0d-69bb-4f64-b80a-511b2cff90d4}</Project>
-      <Name>AutoCompletion</Name>
+      <Name>AI_SAC.AutoCompletion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
