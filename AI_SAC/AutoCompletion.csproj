@@ -106,6 +106,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Analyzer\AI_Analyzer.cs" />
     <Compile Include="Model\HookFeed\HookFeedController.cs" />
     <Compile Include="Model\HookFeed\KeyData.cs" />
     <Compile Include="Model\HookFeed\StringConverter.cs" />
