@@ -26,11 +26,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://jonas2312.github.io/</InstallUrl>
-    <UpdateUrl>https://jonas2312.github.io/</UpdateUrl>
+    <InstallUrl>https://github.com/Jonas2312/AI_SAC/releases/latest/download/</InstallUrl>
+    <UpdateUrl>https://github.com/Jonas2312/AI_SAC/releases/latest/download/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.html</WebPage>
-    <ApplicationRevision>25</ApplicationRevision>
+    <ApplicationRevision>26</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
