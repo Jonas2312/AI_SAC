@@ -95,6 +95,13 @@ namespace AI_SAC.Model.HookFeed
                 --ignoreNextDown;
                 return;
             }
+            if (e.KeyCode == Keys.Tab)
+            {
+                EditorView.instance.StopProgramButton_Click(null, null);
+                ctrlPressed = false;
+                return;
+            }
+
             if (!StringConverter.CanProcess(e.KeyCode))
                 return;
             ++isProcessingKeyDown;
