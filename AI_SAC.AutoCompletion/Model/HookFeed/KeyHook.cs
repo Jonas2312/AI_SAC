@@ -97,8 +97,7 @@ namespace AI_SAC.Model.HookFeed
             }
             if (e.KeyCode == Keys.Tab)
             {
-                EditorView.instance.StopProgramButton_Click(null, null);
-                ctrlPressed = false;
+                EditorView.instance.Tab_Pressed();
                 return;
             }
 
