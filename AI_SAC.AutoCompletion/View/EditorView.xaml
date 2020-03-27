@@ -55,7 +55,7 @@
             </TextBlock>
         </Button>
 
-        <Button Name="StopProgramButton" Grid.Row="2" Width="600" Height="75" Margin="250,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StopProgramButton_Click">
+        <Button Name="StopProgramButton" HorizontalAllignment="Left" Grid.Row="2" Width="600" Height="75" Margin="250,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="StopProgramButton_Click">
             <Button.Background>
                 <SolidColorBrush Color="Red" Opacity="0.6" />
             </Button.Background>
