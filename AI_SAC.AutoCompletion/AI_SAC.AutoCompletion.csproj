@@ -27,10 +27,10 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://jonas2312.github.io/</InstallUrl>
-    <UpdateUrl>https://github.com/Jonas2312/AI_SAC/tree/master/Published/</UpdateUrl>
+    <UpdateUrl>https://github.com/Jonas2312/Jonas2312.github.io/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
-    <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>15</ApplicationRevision>
+    <WebPage>index.html</WebPage>
+    <ApplicationRevision>16</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
