@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DataCollection>
   <DataItem
-    id="CYoNrgTezXxv"
+    id="137423193611465723420"
     trigger="Das Gürteltier"
     completion=" ist eines der Säugetiere, die besonders ...."
     isReplacing="False" />
   <DataItem
-    id="vDHcZ5z1AO7E"
+    id="-1725218112-15264726240"
     trigger="Der Braunbär"
     completion=" ist eines der Tiere, die besonders viel Hunger haben."
+    isReplacing="False" />
+  <DataItem
+    id="7955905-11090366210"
+    trigger="Hallo"
+    completion=" Welt!"
     isReplacing="False" />
 </DataCollection>

@@ -66,7 +66,8 @@ namespace AI_SAC.Model.HookFeed
             //    --isProcessingKeyUp;
             //    return;
             //}
-
+            if (e.KeyCode == Keys.LControlKey || e.KeyCode == Keys.RControlKey)
+                ctrlPressed = false;
             if (e.KeyCode == Keys.LShiftKey || e.KeyCode == Keys.RShiftKey)
                 shiftPressed = false;
             //hookedKeyUps.Add(e.KeyCode);
@@ -75,9 +76,15 @@ namespace AI_SAC.Model.HookFeed
 
         private async void HookKeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Escape)
+            if (e.KeyCode == Keys.LControlKey || e.KeyCode == Keys.RControlKey)
+            {
+                ctrlPressed = true;
+                return;
+            }
+            if (e.KeyCode == Keys.Space && ctrlPressed)
             {
                 EditorView.instance.StopProgramButton_Click(null, null);
+                ctrlPressed = false;
                 return;
             }
 
@@ -89,10 +96,6 @@ namespace AI_SAC.Model.HookFeed
                 return;
             }
             if (!StringConverter.CanProcess(e.KeyCode))
-                return;
-
-
-            if (e.KeyCode == Keys.LControlKey || e.KeyCode == Keys.RControlKey)
                 return;
             ++isProcessingKeyDown;
             if(isSupressing)
