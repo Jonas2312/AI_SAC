@@ -84,6 +84,7 @@ namespace AI_SAC.Model.HookFeed
             if (e.KeyCode == Keys.Space && ctrlPressed)
             {
                 EditorView.instance.StopProgramButton_Click(null, null);
+                shiftPressed = false;
                 ctrlPressed = false;
                 return;
             }
