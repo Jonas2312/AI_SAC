@@ -23,3 +23,8 @@ C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_S
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.exe
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.pdb
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.csprojAssemblyReference.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\AI_SAC.AutoCompletion.exe.manifest
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\AI_SAC.AutoCompletion.application
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.TrustInfo.xml
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.exe.manifest
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.application
