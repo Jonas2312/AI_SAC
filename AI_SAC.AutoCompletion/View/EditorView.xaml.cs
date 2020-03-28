@@ -202,7 +202,7 @@ namespace AI_SAC.AutoCompletion.View
             Suggestions aid = new Suggestions(dcvm);
             if (dcvm.ShowDialog() == false)
                 return;
-
+            analyzer.FeedDataItem(aid.selected_item)
         }
     }
 }
