@@ -196,7 +196,7 @@ namespace AI_SAC.AutoCompletion.View
             DataCollectionViewModel dcvm = editorViewModel.ExcelTableViewModel.XMLData;
 
             Suggestions aid = new Suggestions(dcvm);
-            if (aid.ShowDialog() == false)
+            if (dcvm.ShowDialog() == false)
                 return;
         }
     }
