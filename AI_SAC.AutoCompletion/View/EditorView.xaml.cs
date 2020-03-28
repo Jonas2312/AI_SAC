@@ -6,6 +6,7 @@ using AI_SAC.AutoCompletion.ViewModel;
 using System;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
@@ -202,6 +203,9 @@ namespace AI_SAC.AutoCompletion.View
             Suggestions aid = new Suggestions(dcvm);
             Grid.Children.Add(aid);
             while(aid.IsOpen)
+            {
+                await Task.Delay(10);
+            }
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
             Grid.Children.Remove(aid);
