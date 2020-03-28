@@ -203,10 +203,8 @@ namespace AI_SAC.AutoCompletion.View
             Suggestions aid = new Suggestions(dcvm);
             Grid.Children.Add(aid);
 
-            while(aid.IsOpen)
-            {
-                await Task.Delay(10);
-            }
+            if (aid.ShowDialog() == false)
+                LineBreakCondition;
 
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
