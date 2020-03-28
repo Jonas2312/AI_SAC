@@ -9,6 +9,11 @@ namespace AI_SAC.AutoCompletion.Model.Analyzer
         public virtual void RecieveKeyPress(KeyData key) { }
         public virtual void checkInputs() { }
 
+        public void FeedDataItem()
+        {
+
+        }
+
         public string currentString;
         public List<string> stringsToFeed;
         public DataCollection xmlData;
