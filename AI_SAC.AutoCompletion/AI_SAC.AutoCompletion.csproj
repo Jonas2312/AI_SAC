@@ -25,7 +25,7 @@
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
+    <MapFileExtensions>false</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Published/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Published/</UpdateUrl>
     <WebPage>index.html</WebPage>
