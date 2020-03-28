@@ -200,10 +200,12 @@ namespace AI_SAC.AutoCompletion.View
             }
 
             Suggestions aid = new Suggestions(dcvm);
-            if (aid.ShowDialog() == false)
+            Grid.Children.Add(aid);
+            if (aid.== false)
                 return;
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
+            Grid.Children.Remove(aid);
         }
     }
 }
