@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="AutoCompletion.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="AutoCompletion" version="1.0.0.0" publicKeyToken="C285AFFB687C3CE1" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="AutoCompletion.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -42,38 +42,16 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCompletion.exe" size="45584">
-      <assemblyIdentity name="AutoCompletion" version="1.0.0.0" publicKeyToken="C285AFFB687C3CE1" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>q5KE2HoICiSswiBGiym6cBI0zIHVyvLBJ7Hk8Q4G6dc=</dsig:DigestValue>
-      </hash>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCompletion.exe" size="45056">
+      <assemblyIdentity name="AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gma.System.MouseKeyHook.dll" size="57344">
       <assemblyIdentity name="Gma.System.MouseKeyHook" version="5.6.130.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pnpCQBNUTIJwwSYz4uHih81c8LPy6B6NggSzegPaWe8=</dsig:DigestValue>
-      </hash>
     </dependentAssembly>
   </dependency>
-  <file name="AutoCompletion.exe.config" size="186">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>eSEJjkfolEEv39DK/g+IzGhJd0CZjqwXxowAEpBp2AM=</dsig:DigestValue>
-    </hash>
-  </file>
+  <file name="AutoCompletion.exe.config" size="186" />
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
       <!-- A list of the Windows versions that this application has been tested on

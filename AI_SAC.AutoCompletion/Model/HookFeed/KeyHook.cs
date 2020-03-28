@@ -74,7 +74,7 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
             --isProcessingKeyUp;
         }
 
-        private async void HookKeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
+        private void HookKeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
             if (e.KeyCode == Keys.LControlKey || e.KeyCode == Keys.RControlKey)
             {
