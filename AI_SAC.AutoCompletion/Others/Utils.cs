@@ -14,6 +14,7 @@ namespace AI_SAC.AutoCompletion.Others
         {
             string filePath = Directory.GetCurrentDirectory();
             filePath += "\\Databases";
+            System.IO.Directory.CreateDirectory(filePath);
             return filePath;
         }
     }
