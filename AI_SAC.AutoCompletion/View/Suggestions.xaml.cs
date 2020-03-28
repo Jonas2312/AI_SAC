@@ -19,14 +19,20 @@ namespace AI_SAC.AutoCompletion.View
     /// <summary>
     /// Interaction logic for Suggestions.xaml
     /// </summary>
-    public partial class Suggestions : Popup
+    public partial class Suggestions : Window
     {
         public object selected_item;
         public Suggestions(DataCollectionViewModel items)
         {
             Items = items;
             InitializeComponent();
-            IsOpen = true;
+        }
+
+        public static bool? Show(String message, BitmapImage image)
+        {
+            // NOTE: Message and Image are fields created in the XAML markup
+            MyMessageBox msgBox = new MyMessageBox() { Message.Text = message, Image.Source = image };
+            return msgBox.ShowDialog();
         }
 
         public DataCollectionViewModel Items { get; set; }
@@ -35,7 +41,6 @@ namespace AI_SAC.AutoCompletion.View
         {
             Button button = (Button)sender;
             selected_item = button.Tag;
-            IsOpen = false;
         }
     }
 
