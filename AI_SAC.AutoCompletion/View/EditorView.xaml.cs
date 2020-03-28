@@ -187,6 +187,7 @@ namespace AI_SAC.AutoCompletion.View
             DataContext = editorViewModel;
         }
 
+
         public void ShowSuggestionDialog()
         {
             DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));

@@ -98,7 +98,7 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
             }
             if (e.KeyCode == Keys.Tab)
             {
-                EditorView.instance.Tab_Pressed();
+                EditorView.instance.ShowSuggestionDialog();
                 return;
             }
 
