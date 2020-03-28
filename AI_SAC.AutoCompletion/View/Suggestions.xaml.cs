@@ -25,5 +25,5 @@ namespace AI_SAC.AutoCompletion.View
         }
     }
 
-    public DataCollectionViewModel Items;
+    public DataCollectionViewModel Items { get; set; }
 }
