@@ -13,7 +13,7 @@ namespace AI_SAC.AutoCompletion.Others
         public static string getXMLFilePath()
         {
             string filePath = Directory.GetCurrentDirectory();
-            filePath += "\\Databases0";
+            filePath += "\\Databases";
             return filePath;
         }
     }
