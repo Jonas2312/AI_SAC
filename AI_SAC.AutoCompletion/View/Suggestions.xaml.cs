@@ -20,7 +20,7 @@ namespace AI_SAC.AutoCompletion.View
     /// </summary>
     public partial class Suggestions : Window
     {
-        object item;
+        public object selected_item;
         public Suggestions(DataCollectionViewModel items)
         {
             Items = items;
@@ -32,7 +32,8 @@ namespace AI_SAC.AutoCompletion.View
         public void OnClick(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            button.Tag;
+            selected_item = button.Tag;
+
         }
     }
 
