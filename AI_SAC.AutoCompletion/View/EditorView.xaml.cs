@@ -204,7 +204,7 @@ namespace AI_SAC.AutoCompletion.View
             }
 
             Suggestions aid = new Suggestions(dcvm);
-
+            currentPopup = aid;
             if (aid.ShowDialog() == false)
                 return;
 
