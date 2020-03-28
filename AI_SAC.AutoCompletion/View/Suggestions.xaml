@@ -16,7 +16,7 @@
             <ItemsControl ItemsSource="{Binding List}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Button Content="{Binding Trigger}" Click="OnClick" />
+                        <Button Tag="{Binding}" Content="{Binding Trigger}" Click="OnClick" />
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
