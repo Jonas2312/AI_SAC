@@ -25,7 +25,7 @@
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="100" />
                             </Grid.ColumnDefinitions>
-                            <Button Content="{Binding Title}" />
+                            <Button Content="{Binding Trigger}" />
                             <ProgressBar Grid.Column="1" Minimum="0" Maximum="100" Value="{Binding Completion}" />
                         </Grid>
                     </DataTemplate>
