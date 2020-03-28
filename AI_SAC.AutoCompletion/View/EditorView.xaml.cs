@@ -203,7 +203,7 @@ namespace AI_SAC.AutoCompletion.View
             if (dcvm.ShowDialog() == false)
                 return;
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
-            analyzer.FeedDataItem()
+            analyzer.FeedDataItem(divm.ToModel());
         }
     }
 }
