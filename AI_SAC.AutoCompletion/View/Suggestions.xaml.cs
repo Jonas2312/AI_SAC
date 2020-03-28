@@ -25,6 +25,7 @@ namespace AI_SAC.AutoCompletion.View
         {
             Button button = (Button)sender;
             selected_item = button.Tag;
+            DialogResult = true;
         }
     }
 
