@@ -204,7 +204,7 @@ namespace AI_SAC.AutoCompletion.View
             Grid.Children.Add(aid);
 
             if (aid.ShowDialog() == false)
-                LineBreakCondition;
+                return;
 
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
