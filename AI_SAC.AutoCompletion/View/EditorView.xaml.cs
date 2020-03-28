@@ -206,11 +206,15 @@ namespace AI_SAC.AutoCompletion.View
             Suggestions aid = new Suggestions(dcvm);
             currentPopup = aid;
             if (aid.ShowDialog() == false)
+            {
+                currentPopup = null;
                 return;
+            }
 
+            currentPopup = null;
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
-            currentPopup = null;
+            
         }
     }
 }
