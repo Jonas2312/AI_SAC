@@ -14,7 +14,7 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\AI_SAC.AutoCompletion_1_0_0_0\AI_SAC.AutoCompletion.exe.manifest" size="4474">
+    <dependentAssembly dependencyType="install" codebase="Application Files\AI_SAC.AutoCompletion_1_0_0_0\AI_SAC.AutoCompletion.exe.manifest" size="4262">
       <assemblyIdentity name="AI_SAC.AutoCompletion.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
     </dependentAssembly>
   </dependency>
