@@ -194,7 +194,10 @@ namespace AI_SAC.AutoCompletion.View
         public void ShowSuggestionDialog()
         {
             DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));
-            foreach(var item in editorViewModel.ExcelTableViewModel.XMLData;)
+            foreach(var item in editorViewModel.ExcelTableViewModel.XMLData)
+            {
+                dcvm.Add(item);
+            }
 
             Suggestions aid = new Suggestions(dcvm);
             if (dcvm.ShowDialog() == false)
