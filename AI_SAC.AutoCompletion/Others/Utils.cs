@@ -14,15 +14,6 @@ namespace AI_SAC.AutoCompletion.Others
         {
             string filePath = Directory.GetCurrentDirectory();
             filePath += "\\Databases0";
-            return File;
-            Assembly.GetExecutingAssembly().Location;
-            if (filePath == null)
-                return "\\";
-            filePath = Path.GetDirectoryName(filePath);
-            filePath = Path.GetDirectoryName(filePath);
-            filePath = Path.GetDirectoryName(filePath);
-            filePath = Path.GetDirectoryName(filePath);
-            filePath += "\\xmlFiles\\";
             return filePath;
         }
     }
