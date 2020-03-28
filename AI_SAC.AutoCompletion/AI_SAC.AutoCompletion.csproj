@@ -112,10 +112,10 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -259,7 +259,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <PublishFile Include="AI_SAC.AutoCompletion.exe">
+    <PublishFile Include="AutoCompletion.exe">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -269,7 +269,7 @@
       <IncludeHash>False</IncludeHash>
       <FileType>ManifestEntryPoint</FileType>
     </PublishFile>
-    <PublishFile Include="AI_SAC.AutoCompletion.exe.config">
+    <PublishFile Include="AutoCompletion.exe.config">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -279,7 +279,7 @@
       <IncludeHash>False</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
-    <PublishFile Include="AI_SAC.AutoCompletion.exe.manifest">
+    <PublishFile Include="AutoCompletion.exe.manifest">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -288,6 +288,16 @@
       <PublishState>Auto</PublishState>
       <IncludeHash>False</IncludeHash>
       <FileType>ManifestEntryPoint</FileType>
+    </PublishFile>
+    <PublishFile Include="Gma.System.MouseKeyHook">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
     </PublishFile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
