@@ -70,7 +70,7 @@ namespace AI_SAC.AutoCompletion.View
             ProgramNotRunningText.Visibility = Visibility.Hidden;
             StopProgramButton.Visibility = Visibility.Visible;
             StartProgramButton.Visibility = Visibility.Hidden;
-            editorViewModel.hookFeedController.isActive = true;
+            editorViewModel.HookFeedController.isActive = true;
         }
 
 
@@ -80,7 +80,7 @@ namespace AI_SAC.AutoCompletion.View
             ProgramNotRunningText.Visibility = Visibility.Visible;
             StopProgramButton.Visibility = Visibility.Hidden;
             StartProgramButton.Visibility = Visibility.Visible;
-            editorViewModel.hookFeedController.isActive = false;
+            editorViewModel.HookFeedController.isActive = false;
         }
 
         private void AddItemButton_Click(object sender, RoutedEventArgs e)
@@ -190,20 +190,20 @@ namespace AI_SAC.AutoCompletion.View
         }
 
 
-        public async void ShowSuggestionDialog()
+        public void ShowSuggestionDialog()
         {
             if (currentPopup != null)
                 return;
             DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));
-            KeyAnalyzer analyzer = editorViewModel.hookFeedController.keyAnalyzer;
-            string searchFor = analyzer.currentString;
+            KeyAnalyzer analyzer = editorViewModel.HookFeedController.keyAnalyzer;
+            string searchFor = analyzer.CurrentString;
             foreach(var item in editorViewModel.ExcelTableViewModel.XMLData)
             {
                 if(item.Trigger.ToLower().Contains(searchFor.ToLower()))
                     dcvm.Add(item);
             }
 
-            Suggestions aid = new Suggestions(dcvm);
+            Suggestions aid = new Suggestions(dcvm, searchFor, analyzer);
             currentPopup = aid;
             if (aid.ShowDialog() == false)
             {
@@ -212,7 +212,9 @@ namespace AI_SAC.AutoCompletion.View
             }
 
             currentPopup = null;
-            DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
+            if (aid.selected_item == null)
+                return;
+            DataItemViewModel divm = aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
             
         }

@@ -23,7 +23,7 @@ namespace AI_SAC.AutoCompletion.ViewModel.Rules
 
                 DataItemViewModel curValue = (DataItemViewModel)((BindingExpression)value).DataItem;
 
-                if(curValue.Trigger.Length < 3)
+                if(curValue.Trigger.Length < 2)
                     return new ValidationResult(false, $"Can not have an item with trigger that has less than 3 characters.");
 
                 foreach (DataItemViewModel divm in castedCollection)

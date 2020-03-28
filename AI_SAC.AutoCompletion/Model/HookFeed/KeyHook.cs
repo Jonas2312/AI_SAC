@@ -1,8 +1,10 @@
 ﻿
+using AI_SAC.AutoCompletion.Model.Analyzer;
 using AI_SAC.AutoCompletion.View;
 using Gma.System.MouseKeyHook;
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -10,7 +12,10 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 {
     public class KeyHook
     {
+        KeyAnalyzer analyzer;
+
         IKeyboardMouseEvents keyboardEvents;
+        IKeyboardMouseEvents mouseEvents;
 
         public bool isSupressing;
         public int ignoreNextDown;
@@ -28,8 +33,10 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 
         public bool isActive;
 
-        public KeyHook()
+        public KeyHook(KeyAnalyzer analyzer)
         {
+            this.analyzer = analyzer;
+
             hookedKeyUps = new List<Keys>();
             hookedKeyDowns = new List<KeyData>();
             isSupressing = true;
@@ -38,6 +45,9 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
             keyboardEvents = Hook.GlobalEvents();
             keyboardEvents.KeyDown += HookKeyDown;
             keyboardEvents.KeyUp += HookKeyUp;
+
+            mouseEvents = Hook.GlobalEvents();
+            mouseEvents.MouseDown += MouseDown;
 
             isProcessingKeyDown = 0;
             isProcessingKeyUp = 0;
@@ -48,6 +58,10 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
             ignoreNextDown = 0;
         }
 
+        private void MouseDown(object sender, MouseEventArgs e)
+        {
+            //analyzer.CurrentString = string.Empty;
+        }
 
         private void HookKeyUp(object sender, KeyEventArgs e)
         {
@@ -86,26 +100,30 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
                 EditorView.instance.StopProgramButton_Click(null, null);
                 shiftPressed = false;
                 ctrlPressed = false;
+                analyzer.CurrentString = string.Empty;
                 return;
             }
 
             if (!isActive)
                 return;
+            System.Diagnostics.Debug.WriteLine(e.KeyCode.ToString());
+            if (e.KeyCode == Keys.Tab)
+            {
+                e.SuppressKeyPress = true;
+                Thread t = new Thread(() => EditorView.instance.ShowSuggestionDialog());
+                t.SetApartmentState(ApartmentState.STA); //Set the thread to STA
+                t.Start();
+                return;
+            }
             if (ignoreNextDown > 0)
             {
                 --ignoreNextDown;
                 return;
             }
-            if (e.KeyCode == Keys.Tab)
-            {
-                EditorView.instance.ShowSuggestionDialog();
-                return;
-            }
-
             if (!StringConverter.CanProcess(e.KeyCode))
                 return;
             ++isProcessingKeyDown;
-            if(isSupressing)
+            if (isSupressing)
                 e.SuppressKeyPress = true;
             if (isHookingKeyDowns)
             {

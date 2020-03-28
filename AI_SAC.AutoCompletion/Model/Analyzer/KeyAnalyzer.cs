@@ -1,15 +1,17 @@
 ﻿using AI_SAC.AutoCompletion.Model.HookFeed;
 using System.Collections.Generic;
 using AI_SAC.AutoCompletion.Model.XML;
+using System;
+using AI_SAC.AutoCompletion.Others;
 
 namespace AI_SAC.AutoCompletion.Model.Analyzer
 {
-    public class KeyAnalyzer
+    public class KeyAnalyzer : ObservableObject
     {
         public virtual void RecieveKeyPress(KeyData key) { }
         public virtual void checkInputs() { }
 
-        public void FeedDataItem(DataItem dataItem)
+        public virtual void FeedDataItem(DataItem dataItem)
         {
             int keyLength = dataItem.trigger.Length;
             string s = string.Empty;
@@ -25,12 +27,24 @@ namespace AI_SAC.AutoCompletion.Model.Analyzer
                 }
             }
             s += dataItem.completion;
-            s = StringConverter.replaceSpecialChars(s);
             stringsToFeed.Add(s);
-            currentString = string.Empty;            
+            CurrentString = string.Empty;            
         }
 
-        public string currentString;
+        private string currentString;
+        public string CurrentString
+        {
+            get { return currentString; }
+            set
+            {
+                if(currentString != value)
+                {
+                    currentString = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
+
         public List<string> stringsToFeed;
         public DataCollection xmlData;
     }

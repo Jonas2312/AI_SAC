@@ -13,7 +13,7 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 {
     public class HookFeedController
     {
-        public KeyAnalyzer keyAnalyzer;
+        public KeyAnalyzer keyAnalyzer { get; set; }
         public KeyHook keyHook;
         public KeyFeed keyFeed;
 
@@ -38,7 +38,7 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 
             this.xmlData = xmlData;
             keyAnalyzer = new SimpleAnalyzer(xmlData);
-            keyHook = new KeyHook();
+            keyHook = new KeyHook(keyAnalyzer);
             keyFeed = new KeyFeed(keyHook);
             hookThread = new Thread(() => Hook());            
             feedThread = new Thread(() => Feed());

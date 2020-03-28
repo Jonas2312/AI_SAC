@@ -42,6 +42,7 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 
         public void SendString(string s)
         {
+            s = StringConverter.replaceSpecialChars(s);
             bool atomicUnfinished = false;
             string atomic = string.Empty;
 
@@ -77,7 +78,7 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 
         public void SendAtomic(string s)
         {
-            if((s.ToLower() != s || s.Contains("+")) && !s.Contains("{"))
+            if(StringConverter.isShift(s))
             { 
                 ++keyHook.ignoreNextUp;
                 ++keyHook.ignoreNextDown;

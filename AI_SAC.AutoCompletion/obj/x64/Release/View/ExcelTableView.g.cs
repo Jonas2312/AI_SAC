@@ -70,7 +70,7 @@ namespace AI_SAC.AutoCompletion.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AI_SAC.AutoCompletion;component/view/exceltableview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AutoCompletion;component/view/exceltableview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ExcelTableView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

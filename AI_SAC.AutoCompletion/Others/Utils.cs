@@ -10,11 +10,17 @@ namespace AI_SAC.AutoCompletion.Others
 {
     public static class Utils
     {
+        public static string GetCurrentDirectory()
+        {
+            return Directory.GetCurrentDirectory();
+        }
         public static string getXMLFilePath()
         {
-            string filePath = Directory.GetCurrentDirectory();
-            filePath += "\\Databases";
+            string filePath = Path.Combine(Environment.ExpandEnvironmentVariables("%userprofile%"), "Documents");
+            filePath += "\\AutoCompletion";
             System.IO.Directory.CreateDirectory(filePath);
+            filePath += "\\Databases";
+            System.IO.Directory.CreateDirectory(filePath);            
             return filePath;
         }
     }

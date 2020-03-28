@@ -29,5 +29,15 @@ namespace AI_SAC.AutoCompletion.Model.XML
             id += completion.GetHashCode().ToString();
             id += isReplacing.GetHashCode().ToString();
         }
+
+        public DataItem DeepCopy()
+        {
+            DataItem copy = new DataItem();
+            copy.id = this.id;
+            copy.isReplacing = this.isReplacing;
+            copy.trigger = this.trigger;
+            copy.completion = this.completion;
+            return copy;
+        }
     }
 }

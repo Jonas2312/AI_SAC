@@ -9,6 +9,30 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 {
     public static class StringConverter
     {
+        public static char recieveShiftChar(char c)
+        {
+            if (c == '0')
+                return '=';
+            else if (c == '1')
+                return '!';
+            else if (c == '2')
+                return '"';
+            else if (c == '3')
+                return '§';
+            else if (c == '4')
+                return '$';
+            else if (c == '5')
+                return '%';
+            else if (c == '6')
+                return '&';
+            else if (c == '7')
+                return '/';
+            else if (c == '8')
+                return '(';
+            else if (c == '9')
+                return ')';
+            return c;
+        }
         public static string replaceSpecialChars(string s)
         {
 
@@ -32,9 +56,19 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
             string keyToString = key.ToString();
             if (key == Keys.Space)
                 return true;
+            else if (key == Keys.Tab)
+                return true;
             else if (key == Keys.Back)
                 return true;
             else if (key == Keys.Enter)
+                return true;
+            else if (key == Keys.Oemplus)
+                return true;
+            else if (key == Keys.OemQuestion)
+                return true;
+            else if (key == Keys.Add)
+                return true;
+            else if (key == Keys.OemQuotes)
                 return true;
             else if (key == Keys.LControlKey || key == Keys.RControlKey)
                 return true;
@@ -53,6 +87,18 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
 
             return false;
         }
+
+        internal static bool isShift(string s)
+        {
+            if (s.Contains("{"))
+                return false;
+            if (s.Contains("+"))
+                return true;
+            else if (s.ToLower() != s)
+                return true;
+            return false;
+        }
+
         public static string ToSendKeys(string s)
         {
             string newString = string.Empty;
@@ -73,6 +119,12 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
                 keyToString = " ";
             else if (key.key == Keys.Back)
                 keyToString = "{BACKSPACE}";
+            else if (key.key == Keys.OemQuestion)
+                keyToString = "#";
+            else if (key.key == Keys.Oemplus)
+                keyToString = "+";
+            else if (key.key == Keys.Add)
+                keyToString = "+";
             else if (key.key == Keys.Enter)
                 keyToString = "{ENTER}";
             else if (key.key == Keys.Oemtilde)
@@ -84,6 +136,10 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
             else if (keyToString.Length == 2 && keyToString[0] == 'D')
             {
                 keyToString = keyToString[1].ToString();
+                if (key.shiftPressed)
+                    keyToString = keyToString.Insert(0, recieveShiftChar(keyToString[0]).ToString()).Remove(1, 1);
+
+                return keyToString;
             }
             else if (keyToString.Length >= 3)
             {
@@ -95,7 +151,10 @@ namespace AI_SAC.AutoCompletion.Model.HookFeed
                 if (!key.shiftPressed)
                     keyToString = keyToString.ToLowerInvariant();
                 if (key.shiftPressed)
+                {
                     keyToString = keyToString.ToUpperInvariant();
+                }
+
             }
 
             return keyToString;
