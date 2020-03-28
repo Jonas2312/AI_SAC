@@ -15,7 +15,7 @@ namespace AI_SAC.AutoCompletion.View
         {
             Items = items;
             InitializeComponent();
-            myWindow.Activate();
+            Activate();
         }
 
         public DataCollectionViewModel Items { get; set; }
