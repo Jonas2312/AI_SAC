@@ -81,11 +81,6 @@ namespace AI_SAC.AutoCompletion.View
             editorViewModel.hookFeedController.isActive = false;
         }
 
-        internal void Tab_Pressed()
-        {
-            throw new NotImplementedException();
-        }
-
         private void AddItemButton_Click(object sender, RoutedEventArgs e)
         {
             DataCollectionViewModel dcvm = editorViewModel.ExcelTableViewModel.XMLData;
