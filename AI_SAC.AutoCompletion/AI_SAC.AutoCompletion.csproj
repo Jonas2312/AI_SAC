@@ -106,8 +106,7 @@
     <ManifestCertificateThumbprint>851189096725D2E0A5F61B552262B0A41455892E</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>
-    </ManifestKeyFile>
+    <ManifestKeyFile>AI_SAC.AutoCompletion_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>

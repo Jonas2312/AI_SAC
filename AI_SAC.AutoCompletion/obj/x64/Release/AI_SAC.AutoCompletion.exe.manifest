@@ -4,7 +4,7 @@
   <description asmv2:publisher="AI_SAC.AutoCompletion" asmv2:product="AI_SAC.AutoCompletion" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="AI_SAC.AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <assemblyIdentity name="AI_SAC.AutoCompletion" version="1.0.0.0" publicKeyToken="C285AFFB687C3CE1" language="neutral" processorArchitecture="amd64" />
     <commandLine file="AI_SAC.AutoCompletion.exe" parameters="" />
   </entryPoint>
   <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
@@ -44,14 +44,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AI_SAC.AutoCompletion.exe" size="39952">
-      <assemblyIdentity name="AI_SAC.AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AI_SAC.AutoCompletion.exe" size="40464">
+      <assemblyIdentity name="AI_SAC.AutoCompletion" version="1.0.0.0" publicKeyToken="C285AFFB687C3CE1" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HozqQkt1M8nlLzjb4K3kKtn7leWLBStaMQ/fzvyDhbI=</dsig:DigestValue>
+        <dsig:DigestValue>ckpEHfdk9kC4icX8DwNdSxVDB4mKK9/ieIosbgXLqZs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
