@@ -200,7 +200,7 @@ namespace AI_SAC.AutoCompletion.View
             }
 
             Suggestions aid = new Suggestions(dcvm);
-            if (dcvm.ShowDialog() == false)
+            if (aid.ShowDialog() == false)
                 return;
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
