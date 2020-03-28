@@ -192,6 +192,8 @@ namespace AI_SAC.AutoCompletion.View
 
         public async void ShowSuggestionDialog()
         {
+            if (currentPopup != null)
+                return;
             DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));
             KeyAnalyzer analyzer = editorViewModel.hookFeedController.keyAnalyzer;
             string searchFor = analyzer.currentString;
@@ -208,6 +210,7 @@ namespace AI_SAC.AutoCompletion.View
 
             DataItemViewModel divm = (DataItemViewModel)aid.selected_item;
             analyzer.FeedDataItem(divm.ToModel());
+            currentPopup = null;
         }
     }
 }
