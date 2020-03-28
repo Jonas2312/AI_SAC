@@ -9,6 +9,7 @@ using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -31,7 +32,7 @@ namespace AI_SAC.AutoCompletion.View
         public static bool? Show(String message, BitmapImage image)
         {
             // NOTE: Message and Image are fields created in the XAML markup
-            MyMessageBox msgBox = new MyMessageBox() { Message.Text = message, Image.Source = image };
+            Suggestions msgBox = new Suggestions(items) { Message.Text = message, Image.Source = image };
             return msgBox.ShowDialog();
         }
 
