@@ -1,6 +1,4 @@
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\AI_SAC.AutoCompletion.exe.config
-C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\AI_SAC.AutoCompletion.exe.manifest
-C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\AI_SAC.AutoCompletion.application
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\AI_SAC.AutoCompletion.exe
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\AI_SAC.AutoCompletion.pdb
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\x64\Release\Gma.System.MouseKeyHook.dll
@@ -21,8 +19,6 @@ C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_S
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.Properties.Resources.resources
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.csproj.GenerateResource.cache
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.csproj.CoreCompileInputs.cache
-C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.exe.manifest
-C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.application
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.csproj.CopyComplete
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.exe
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\x64\Release\AI_SAC.AutoCompletion.pdb
