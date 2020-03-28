@@ -16,6 +16,10 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-
+        <ScrollViewer>
+            <ItemsControl>
+                
+            </ItemsControl>
+        </ScrollViewer>
     </Grid>
 </Window>
