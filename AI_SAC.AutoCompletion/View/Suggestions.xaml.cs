@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AI_SAC.AutoCompletion.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,8 +20,9 @@ namespace AI_SAC.AutoCompletion.View
     /// </summary>
     public partial class Suggestions : Window
     {
-        public Suggestions()
+        public Suggestions(DataCollectionViewModel items)
         {
+            items = items;
             InitializeComponent();
         }
     }
