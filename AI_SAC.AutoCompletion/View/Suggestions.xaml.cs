@@ -1,7 +1,6 @@
 ﻿using AI_SAC.AutoCompletion.ViewModel;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Forms;
 
 namespace AI_SAC.AutoCompletion.View
 {
@@ -15,7 +14,7 @@ namespace AI_SAC.AutoCompletion.View
         {
             Items = items;
             InitializeComponent();
-            this.Topmost =this true;
+            this.Topmost = true;
             this.Activate();
             this.Focus();
         }
