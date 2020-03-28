@@ -6,8 +6,8 @@ namespace AI_SAC.AutoCompletion.Model.Analyzer
 {
     public class KeyAnalyzer
     {
-        public abstract void RecieveKeyPress(KeyData key);
-        public abstract void checkInputs();
+        public virtual void RecieveKeyPress(KeyData key) { }
+        public virtual void checkInputs() { }
 
         public string currentString;
         public List<string> stringsToFeed;
