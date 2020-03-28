@@ -206,6 +206,7 @@ namespace AI_SAC.AutoCompletion.View
             Suggestions aid = new Suggestions(dcvm);
             if (dcvm.ShowDialog() == false)
                 return;
+
         }
     }
 }

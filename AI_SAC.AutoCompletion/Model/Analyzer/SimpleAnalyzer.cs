@@ -59,7 +59,6 @@ namespace AI_SAC.AutoCompletion.Model.Analyzer
                     }
                     s += p.completion;
                     s = StringConverter.replaceSpecialChars(s);
-                    System.Diagnostics.Debug.WriteLine(s);
                     stringsToFeed.Add(s);
                     currentString = String.Empty;
                     break;
