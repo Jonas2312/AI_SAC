@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AI_SAC.AutoCompletion.exe" size="46096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AI_SAC.AutoCompletion.exe" size="45056">
       <assemblyIdentity name="AI_SAC.AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MUOt5nW8MlNBIUVhcaGxIRgNCJ7IVmruYhVmK003PXo=</dsig:DigestValue>
+        <dsig:DigestValue>Nc6yrIT1gboJrw9EK46ZP58JxoPlxZDHoOMuKtZs5Vw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
