@@ -4,7 +4,7 @@ using AI_SAC.AutoCompletion.Model.XML;
 
 namespace AI_SAC.AutoCompletion.Model.Analyzer
 {
-    public abstract class KeyAnalyzer
+    public class KeyAnalyzer
     {
         public abstract void RecieveKeyPress(KeyData key);
         public abstract void checkInputs();
