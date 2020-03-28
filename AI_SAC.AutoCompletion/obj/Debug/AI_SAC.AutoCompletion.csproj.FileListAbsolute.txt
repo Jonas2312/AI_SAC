@@ -28,3 +28,5 @@ C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\Debug\AutoComple
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\bin\Debug\AutoCompletion.pdb
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Debug\AutoCompletion.exe.manifest
 C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Debug\AutoCompletion.application
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Debug\View\Suggestions.baml
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion\obj\Debug\View\Suggestions.g.cs

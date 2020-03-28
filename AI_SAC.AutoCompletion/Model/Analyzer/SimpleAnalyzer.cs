@@ -45,7 +45,8 @@ namespace AI_SAC.AutoCompletion.Model.Analyzer
                 if (p.trigger.ToLower() == 
                     currentString.Substring(currentStringLength - keyLength).ToLower())
                 {
-                    
+                    FeedDataItem(p);
+                    break;
                 }
             }
         }
