@@ -21,10 +21,5 @@ namespace AI_SAC.AutoCompletion.ViewModel
                 Add(new DataItemViewModel(dataItem));
             }
         }
-
-        internal bool ShowDialog()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
