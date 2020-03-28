@@ -193,7 +193,11 @@ namespace AI_SAC.AutoCompletion.View
 
         public void ShowSuggestionDialog()
         {
+            DataCollectionViewModel dcvm = editorViewModel.ExcelTableViewModel.XMLData;
 
+            AddItemDialog aid = new AddItemDialog("Remove row with id", "Item ID");
+            if (aid.ShowDialog() == false)
+                return;
         }
     }
 }
