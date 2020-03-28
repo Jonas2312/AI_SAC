@@ -24,7 +24,7 @@ namespace AI_SAC.AutoCompletion.Model.Analyzer
                     s += "{BACKSPACE}";
                 }
             }
-            s += p.completion;
+            s += dataItem.completion;
             s = StringConverter.replaceSpecialChars(s);
             stringsToFeed.Add(s);
             currentString = string.Empty;            
