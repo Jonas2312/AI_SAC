@@ -1,7 +1,6 @@
-﻿<Window x:Class="AI_SAC.AutoCompletion.View.Suggestions"
+﻿<Popup x:Class="AI_SAC.AutoCompletion.View.Suggestions"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Input" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid Margin="15">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
@@ -22,4 +21,4 @@
             </ItemsControl>
         </ScrollViewer>
     </Grid>
-</Window>
+</Popup>
