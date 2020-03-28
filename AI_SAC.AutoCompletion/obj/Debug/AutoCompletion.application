@@ -14,7 +14,7 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="AutoCompletion.exe.manifest" size="4220">
+    <dependentAssembly dependencyType="install" codebase="AutoCompletion.exe.manifest" size="4288">
       <assemblyIdentity name="AutoCompletion.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
     </dependentAssembly>
   </dependency>

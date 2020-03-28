@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="AutoCompletion.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="AutoCompletion" version="1.0.0.0" publicKeyToken="C285AFFB687C3CE1" language="neutral" processorArchitecture="msil" />
     <commandLine file="AutoCompletion.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -42,8 +42,8 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCompletion.exe" size="44032">
-      <assemblyIdentity name="AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCompletion.exe" size="44544">
+      <assemblyIdentity name="AutoCompletion" version="1.0.0.0" publicKeyToken="C285AFFB687C3CE1" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
