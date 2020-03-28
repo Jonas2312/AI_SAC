@@ -15,7 +15,9 @@ namespace AI_SAC.AutoCompletion.View
         {
             Items = items;
             InitializeComponent();
-            this.Focus
+            this.Topmost =this true;
+            this.Activate();
+            this.Focus();
         }
 
         public DataCollectionViewModel Items { get; set; }
