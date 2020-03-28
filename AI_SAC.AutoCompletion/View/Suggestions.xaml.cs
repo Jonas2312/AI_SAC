@@ -18,7 +18,7 @@ namespace AI_SAC.AutoCompletion.View
     /// <summary>
     /// Interaction logic for Suggestions.xaml
     /// </summary>
-    public partial class Suggestions : Window
+    public partial class Suggestions : 
     {
         public object selected_item;
         public Suggestions(DataCollectionViewModel items)
