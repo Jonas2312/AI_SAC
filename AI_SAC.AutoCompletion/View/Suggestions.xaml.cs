@@ -24,4 +24,6 @@ namespace AI_SAC.AutoCompletion.View
             InitializeComponent();
         }
     }
+
+    public DataCollectionViewModel Items;
 }
