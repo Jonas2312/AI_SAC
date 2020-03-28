@@ -195,7 +195,7 @@ namespace AI_SAC.AutoCompletion.View
         {
             DataCollectionViewModel dcvm = editorViewModel.ExcelTableViewModel.XMLData;
 
-            AddItemDialog aid = new AddItemDialog("Remove row with id", "Item ID");
+            Suggestions aid = new Suggestions(dcvm);
             if (aid.ShowDialog() == false)
                 return;
         }
