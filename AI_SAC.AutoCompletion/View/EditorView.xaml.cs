@@ -199,8 +199,8 @@ namespace AI_SAC.AutoCompletion.View
             string searchFor = analyzer.currentString;
             foreach(var item in editorViewModel.ExcelTableViewModel.XMLData)
             {
-                if()
-                dcvm.Add(item);
+                if(item.Trigger.ToLower().Contains(searchFor.ToLower()))
+                    dcvm.Add(item);
             }
 
             Suggestions aid = new Suggestions(dcvm);
