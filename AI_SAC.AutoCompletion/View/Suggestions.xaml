@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:AI_SAC.AutoCompletion.View"
         mc:Ignorable="d"
         Title="Suggestions" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
     </Grid>
 </Window>

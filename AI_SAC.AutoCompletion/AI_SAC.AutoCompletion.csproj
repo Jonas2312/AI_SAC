@@ -30,7 +30,7 @@
     <UpdateUrl>https://raw.githubusercontent.com/Jonas2312/AI_SAC/master/Published/</UpdateUrl>
     <WebPage>index.html</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -124,7 +124,8 @@
     </StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>SigningKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
@@ -183,6 +184,9 @@
     <Compile Include="View\ExcelTableView.xaml.cs">
       <DependentUpon>ExcelTableView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Suggestions.xaml.cs">
+      <DependentUpon>Suggestions.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -206,6 +210,10 @@
     <Page Include="View\ExcelTableView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Suggestions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -241,7 +249,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="SigningKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
