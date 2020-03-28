@@ -11,6 +11,7 @@ namespace AI_SAC.AutoCompletion.Model.Analyzer
 
         public void FeedDataItem(DataItem dataItem)
         {
+            int keyLength = p.trigger.Length;
             string s = string.Empty;
             // Verwenden Sie das Format {Key Number}, um sich wiederholende Schlüssel anzu
             // geben. Sie müssen ein Leerzeichen zwischen Schlüssel und Zahl platzieren.
