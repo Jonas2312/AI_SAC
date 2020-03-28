@@ -20,6 +20,7 @@ namespace AI_SAC.AutoCompletion.View
     /// </summary>
     public partial class Suggestions : Window
     {
+        object item;
         public Suggestions(DataCollectionViewModel items)
         {
             Items = items;
