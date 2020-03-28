@@ -196,6 +196,7 @@ namespace AI_SAC.AutoCompletion.View
         {
             DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));
             KeyAnalyzer analyzer = editorViewModel.hookFeedController.keyAnalyzer;
+            string searchFor = analyzer.currentString;
             foreach(var item in editorViewModel.ExcelTableViewModel.XMLData)
             {
                 if()
