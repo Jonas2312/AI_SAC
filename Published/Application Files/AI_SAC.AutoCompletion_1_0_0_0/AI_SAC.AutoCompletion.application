@@ -16,13 +16,6 @@
   <dependency>
     <dependentAssembly dependencyType="install" codebase="Application Files\AI_SAC.AutoCompletion_1_0_0_0\AI_SAC.AutoCompletion.exe.manifest" size="5522">
       <assemblyIdentity name="AI_SAC.AutoCompletion.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nsPR0MRClwR4LIVZiap0EeJ4lqZhjydR5ls0BScGAJs=</dsig:DigestValue>
-      </hash>
     </dependentAssembly>
   </dependency>
 </asmv1:assembly>
