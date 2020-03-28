@@ -27,13 +27,7 @@ namespace AI_SAC.AutoCompletion.View
         {
             Items = items;
             InitializeComponent();
-        }
-
-        public static bool? Show(String message, BitmapImage image)
-        {
-            // NOTE: Message and Image are fields created in the XAML markup
-            Suggestions msgBox = new Suggestions(items) { Message.Text = message, Image.Source = image };
-            return msgBox.ShowDialog();
+            myWindow.Activate();
         }
 
         public DataCollectionViewModel Items { get; set; }
