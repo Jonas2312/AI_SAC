@@ -17,7 +17,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <ScrollViewer>
-            <ItemsControl ItemsSource={Binding}>
+            <ItemsControl ItemsSource={Binding List}>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Grid Margin="0,0,0,5">
