@@ -18,6 +18,7 @@ namespace AI_SAC.AutoCompletion.View
     /// </summary>
     public partial class EditorView : System.Windows.Controls.UserControl
     {
+        public Window currentPopup;
         public static EditorView instance;
         public EditorViewModel editorViewModel;
         public string filePath;
