@@ -27,6 +27,11 @@ namespace AI_SAC.AutoCompletion.View
         }
 
         public DataCollectionViewModel Items { get; set; }
+
+        public void OnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 }
