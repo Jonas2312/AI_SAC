@@ -1,4 +1,5 @@
-﻿using AI_SAC.AutoCompletion.Model.HookFeed;
+﻿using AI_SAC.AutoCompletion.Model.Analyzer;
+using AI_SAC.AutoCompletion.Model.HookFeed;
 using AI_SAC.AutoCompletion.Model.XML;
 using AI_SAC.AutoCompletion.Others;
 using AI_SAC.AutoCompletion.ViewModel;
@@ -194,7 +195,7 @@ namespace AI_SAC.AutoCompletion.View
         public void ShowSuggestionDialog()
         {
             DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));
-            Model.Analyzer analyzer = editorViewModel.hookFeedController.keyAnalyzer;
+            KeyAnalyzer analyzer = editorViewModel.hookFeedController.keyAnalyzer;
             foreach(var item in editorViewModel.ExcelTableViewModel.XMLData)
             {
                 if()
