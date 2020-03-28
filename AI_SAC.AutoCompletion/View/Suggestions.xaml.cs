@@ -22,10 +22,11 @@ namespace AI_SAC.AutoCompletion.View
     {
         public Suggestions(DataCollectionViewModel items)
         {
-            items = items;
+            Items = items;
             InitializeComponent();
         }
+
+        public DataCollectionViewModel Items { get; set; }
     }
 
-    public DataCollectionViewModel Items { get; set; }
 }
