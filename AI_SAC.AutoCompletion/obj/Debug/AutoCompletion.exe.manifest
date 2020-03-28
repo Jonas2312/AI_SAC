@@ -42,7 +42,7 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCompletion.exe" size="45056">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AutoCompletion.exe" size="44032">
       <assemblyIdentity name="AutoCompletion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
