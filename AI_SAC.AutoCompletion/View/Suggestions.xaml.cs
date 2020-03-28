@@ -30,7 +30,8 @@ namespace AI_SAC.AutoCompletion.View
 
         public void OnClick(object sender, RoutedEventArgs e)
         {
-
+            Button button = (Button)sender;
+            button.Tag;
         }
     }
 
