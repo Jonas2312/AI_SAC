@@ -195,7 +195,7 @@ namespace AI_SAC.AutoCompletion.View
         {
             DataCollectionViewModel dcvm = editorViewModel.ExcelTableViewModel.XMLData;
 
-
+            DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));
 
 
             Suggestions aid = new Suggestions(dcvm);
