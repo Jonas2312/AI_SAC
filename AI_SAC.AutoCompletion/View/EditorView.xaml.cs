@@ -194,8 +194,10 @@ namespace AI_SAC.AutoCompletion.View
         public void ShowSuggestionDialog()
         {
             DataCollectionViewModel dcvm = new DataCollectionViewModel(new DataCollection(null));
+            Model.Analyzer analyzer = editorViewModel.hookFeedController.keyAnalyzer;
             foreach(var item in editorViewModel.ExcelTableViewModel.XMLData)
             {
+                if()
                 dcvm.Add(item);
             }
 
