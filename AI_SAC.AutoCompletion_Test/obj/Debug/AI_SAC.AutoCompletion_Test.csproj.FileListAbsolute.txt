@@ -1,0 +1,4 @@
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Debug\AI_SAC.AutoCompletion_Test.csprojAssemblyReference.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Debug\AI_SAC.AutoCompletion_Test.csproj.CoreCompileInputs.cache
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Debug\AI_SAC TestUnit.dll
+C:\Users\Ile de France\Desktop\AI_SAC\AI_SAC.AutoCompletion_Test\obj\Debug\AI_SAC TestUnit.pdb
