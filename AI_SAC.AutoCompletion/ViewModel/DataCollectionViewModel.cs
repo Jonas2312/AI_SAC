@@ -22,7 +22,9 @@ namespace AI_SAC.AutoCompletion.ViewModel
             }
         }
 
-        
-
+        internal bool ShowDialog()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
